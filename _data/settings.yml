@@ -22,4 +22,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Sarthak Chaturvedi', title: 'Staff Scientist', department: 'Energy and Environment Directorate', institution: 'Department of Energy's Pacific Northwest National Laboratory', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
