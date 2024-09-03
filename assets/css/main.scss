@@ -2,3 +2,21 @@
 ---
 
 @import "main";
+
+
+@import "{{ site.theme }}";
+
+// Add these styles for the press page
+.press-item {
+  margin-bottom: 2rem;
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  h5 {
+    margin-top: 1rem;
+  }
+}
