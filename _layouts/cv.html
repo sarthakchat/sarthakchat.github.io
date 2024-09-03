@@ -15,6 +15,9 @@ layout: default
         {% for section in site.data.cv.education %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
+          {% if section.details %}
+            <p><em>{{ section.details }}</em></p>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -26,6 +29,9 @@ layout: default
         {% for section in site.data.cv.academic-experience %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
+          {% if section.details %}
+            <p><em>{{ section.details }}</em></p>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
