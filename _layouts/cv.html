@@ -7,31 +7,43 @@ layout: default
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
+    
+    <!-- Academic Experience Section -->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Experience</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.academic-experience %}
+          <div class="mb-4">
+            <p class="fw-bold mb-1">{{ section.position }}</p>
+            <p class="mb-1">{{ section.institution }}, {{ section.location }}</p>
+            <p class="mb-1">{{ section.duration }}</p>
+            <p>{{ section.description }}</p>
+          </div>
+          {% unless forloop.last %}<hr>{% endunless %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Education Section -->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Education</h4>
       </div>
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-          {% if section.details %}
-            <p><em>{{ section.details }}</em></p>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-    <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Academic Experience</h4>
-      </div>
-      <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-          {% if section.details %}
-            <p><em>{{ section.details }}</em></p>
-          {% endif %}
+          <div class="mb-4">
+            <p class="fw-bold mb-1">{{ section.institution }}</p>
+            <p class="mb-1">{{ section.location }}</p>
+            {% for degree in section.degrees %}
+              <p class="mb-1">{{ degree.name }}, {{ degree.year }}</p>
+              {% if degree.details %}
+                <p><em>{{ degree.details }}</em></p>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% unless forloop.last %}<hr>{% endunless %}
         {% endfor %}
       </div>
     </div>
