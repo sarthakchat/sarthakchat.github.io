@@ -12,6 +12,20 @@ layout: default
   </div>
 </div>
 
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">News Coverage</h3>
+    {% for item in site.data.settings.news_coverage %}
+      <p>
+        <strong>{{ item.title }}</strong><br>
+        <em>{{ item.publication }}</em> - {{ item.date }}<br>
+        {{ item.summary }}<br>
+        <a href="{{ site.github.url }}/news-coverage/{{ item.url }}">Read more</a>
+      </p>
+    {% endfor %}
+  </div>
+</div>
+
 {% include publications.html %}
 
 <div class="row g-5 mb-5">
