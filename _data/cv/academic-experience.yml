@@ -1,12 +1,26 @@
-- title: 'Staff Scientist - AI for Sustainability and Energy'
-  description: 'Pacific Northwest National Laboratory (2023 – present)'
-  location: 'Richland, WA'
+- position: Staff Scientist - AI for Sustainability and Energy
+  institution: Pacific Northwest National Laboratory
+  location: Richland, WA
+  duration: 2023 – present
+  description: Leading research initiatives at the intersection of AI, sustainability, and energy systems.
+  achievements:
+    - Spearheading the development of AI-driven solutions for energy optimization and sustainability challenges
+    - Collaborating with interdisciplinary teams to address complex environmental and energy-related issues
 
-- title: 'Graduate Research Assistant'
-  description: 'Georgia Institute of Technology  (2021 – 2023)'
-  location: 'Atlanta, GA'
+- position: Graduate Research Assistant
+  institution: Georgia Institute of Technology
+  location: Atlanta, GA
+  duration: 2021 – 2023
+  description: Conducted advanced research in AI applications for energy systems and sustainability.
+  achievements:
+    - Developed novel AI algorithms for optimizing electric vehicle charging infrastructure
+    - Published research findings in top-tier conferences and journals in the field of AI and energy
 
-- title: 'Research Fellow'
-  description: 'Robert Bosch Centre for Data Science and Artificial Intelligence  (2020 – 2021)'
-  location: 'Indian Institute of Technology Madras, Chennai'
-
+- position: Research Fellow
+  institution: Robert Bosch Centre for Data Science and Artificial Intelligence
+  location: Indian Institute of Technology Madras, Chennai
+  duration: 2020 – 2021
+  description: Engaged in cutting-edge research on AI and data science applications.
+  achievements:
+    - Contributed to projects focusing on AI-driven solutions for urban mobility and smart city initiatives
+    - Collaborated with industry partners to implement AI technologies in real-world scenarios
