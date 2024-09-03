@@ -8,7 +8,7 @@ Date: April 29, 2024
 
 🏛️ DOE Announcement Highlight: The PolicyAI initiative, to which I contribute as a key team member, was featured in a Department of Energy announcement on new actions to enhance America's global leadership in Artificial Intelligence.
 
-🔍 Key Mention: The DOE announced the development of PolicyAI as part of its new VoltAIc Initiative. The announcement stated that PolicyAI is 'a policy-specific Large Language Model test bed that will be used to develop software to augment National Environmental Policy Act and related reviews.'
+🔍 Key Mention: The DOE announced the development of PolicyAI as part of its new VoltAIc Initiative. The announcement stated that PolicyAI is "a policy-specific Large Language Model test bed that will be used to develop software to augment National Environmental Policy Act and related reviews."
 
 This inclusion in the DOE announcement underscores the significance of PolicyAI in the context of the Department's efforts to accelerate the responsible deployment of AI technologies. PolicyAI is designed to improve siting and permitting of clean energy infrastructure, aligning with the broader strategy to promote innovation, strengthen America's energy and national security, and help tackle the climate crisis.
 
