@@ -1,6 +1,6 @@
 ---
 layout: page
-title: \"Contributing Author to DOE Report on AI and Energy\"
+title: "Contributing Author to DOE Report on AI and Energy"
 ---
 
 Publication: U.S. Department of Energy
@@ -15,5 +15,3 @@ Date: April 29, 2024
 Significance: This report is the first of its kind from the DOE, focusing on AI's near-term potential to support the growth of America's clean energy economy. Its inclusion in the DOE's high-level announcement underscores the importance of understanding and harnessing AI's potential in the energy sector.
 
 The report's coverage in this major DOE announcement demonstrates its recognition as a key resource in understanding how AI can be applied to solve real-world challenges in energy infrastructure development and environmental policy. It showcases the potential of AI to contribute to national goals of accelerating clean energy deployment and improving energy infrastructure processes.
-
-For more information, the DOE announcement can be found at: https://www.energy.gov/articles/doe-announces-new-actions-enhance-americas-global-leadership-artificial-intelligence

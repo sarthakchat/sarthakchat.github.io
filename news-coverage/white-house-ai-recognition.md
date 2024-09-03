@@ -1,6 +1,6 @@
 ---
 layout: page
-title: \"PolicyAI in White House Report on Key AI Actions\"
+title: "PolicyAI in White House Report on Key AI Actions"
 ---
 
 Publication: White House Briefing
