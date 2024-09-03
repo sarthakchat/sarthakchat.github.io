@@ -2,7 +2,7 @@ menu:
 - {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
 #- {name: 'courses', url: '/courses'}
-- {name: 'news coverage', url: '/news-coverage'}
+- {name: 'press', url: '/news-coverage'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
