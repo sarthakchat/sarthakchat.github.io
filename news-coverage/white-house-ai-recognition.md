@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AI for Environment Permitting"
+title: "White House Recognizes AI Work in Clean Energy Infrastructure Permitting"
 ---
 
 Publication: White House Briefing
