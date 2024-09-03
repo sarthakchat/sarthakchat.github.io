@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PolicyAI in White House Report on Key AI Actions"
+title: \"PolicyAI in White House Report on Key AI Actions\"
 ---
 
 Publication: White House Briefing
@@ -14,6 +14,7 @@ This inclusion in the White House report underscores the significance of PolicyA
 
 The mention of PolicyAI in this high-level report demonstrates its recognition as a key initiative in applying AI to solve real-world challenges in the energy sector. It showcases the project's potential to contribute to national goals of accelerating clean energy deployment and improving energy infrastructure processes.
 
-For more information, see the [DOE announcement](https://www.energy.gov/articles/doe-announces-new-actions-enhance-americas-global-leadership-artificial-intelligence) on new actions to enhance America's global leadership in Artificial Intelligence.
+For more details, see the [White House briefing](https://www.whitehouse.gov/briefing-room/statements-releases/2024/04/29/biden-harris-administration-announces-key-ai-actions-180-days-following-president-bidens-landmark-executive-order/) on key AI actions.
+
 
 

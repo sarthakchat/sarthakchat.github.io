@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PolicyAI in CEQ's Environmental Review Modernization Report"
+title: \"PolicyAI in CEQ's Environmental Review Modernization Report\"
 ---
 
 Publication: White House Council on Environmental Quality
@@ -14,3 +14,4 @@ This inclusion in the CEQ report underscores the significance of PolicyAI in the
 
 The report emphasizes how PolicyAI aligns with the administration's goals of leveraging technology to modernize environmental reviews, increase transparency, and improve public accessibility in federal permitting processes.
 
+For more information, see the [CEQ press release](https://www.whitehouse.gov/ceq/news-updates/2024/07/17/ceq-releases-recommendations-on-digital-tools-to-modernize-environmental-reviews-increase-transparency-and-accessibility-of-federal-permitting/) on digital tools to modernize environmental reviews.
