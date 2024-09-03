@@ -1,6 +1,6 @@
 ---
 layout: page
-title: \"PolicyAI in DOE's New AI Initiatives\"
+title: "PolicyAI in DOE's New AI Initiatives"
 ---
 
 Publication: U.S. Department of Energy

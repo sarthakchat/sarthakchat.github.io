@@ -1,6 +1,6 @@
 ---
 layout: page
-title: \"Contributing Author to DOE Report on AI and Energy\"
+title: "Contributing Author to DOE Report on AI and Energy"
 ---
 
 Publication: U.S. Department of Energy

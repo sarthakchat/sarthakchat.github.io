@@ -1,6 +1,6 @@
 ---
 layout: page
-title: \"PolicyAI in CEQ's Environmental Review Modernization Report\"
+title: "PolicyAI in CEQ's Environmental Review Modernization Report"
 ---
 
 Publication: White House Council on Environmental Quality
