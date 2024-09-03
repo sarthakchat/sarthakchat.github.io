@@ -1,26 +1,17 @@
-- position: Staff Scientist - AI for Sustainability and Energy
+- position: Staff Scientist
   institution: Pacific Northwest National Laboratory
   location: Richland, WA
-  duration: 2023 – present
-  description: Leading research initiatives at the intersection of AI, sustainability, and energy systems.
-  achievements:
-    - Spearheading the development of AI-driven solutions for energy optimization and sustainability challenges
-    - Collaborating with interdisciplinary teams to address complex environmental and energy-related issues
+  duration: Oct 2023 – Present
+  description: Developing state-of-the-art NLP models for environmental policy analysis and regulatory compliance.
 
-- position: Graduate Research Assistant
+- position: Machine Learning Research Assistant
   institution: Georgia Institute of Technology
   location: Atlanta, GA
-  duration: 2021 – 2023
-  description: Conducted advanced research in AI applications for energy systems and sustainability.
-  achievements:
-    - Developed novel AI algorithms for optimizing electric vehicle charging infrastructure
-    - Published research findings in top-tier conferences and journals in the field of AI and energy
+  duration: Aug 2021 – Aug 2023
+  description: Applied advanced NLP techniques to analyze electric vehicle infrastructure and sustainability issues.
 
 - position: Research Fellow
-  institution: Robert Bosch Centre for Data Science and Artificial Intelligence
+  institution: Robert Bosch Centre for Data Science and AI
   location: Indian Institute of Technology Madras, Chennai
-  duration: 2020 – 2021
-  description: Engaged in cutting-edge research on AI and data science applications.
-  achievements:
-    - Contributed to projects focusing on AI-driven solutions for urban mobility and smart city initiatives
-    - Collaborated with industry partners to implement AI technologies in real-world scenarios
+  duration: Aug 2020 – Aug 2021
+  description: Developed AI-driven solutions for real-time traffic flow estimation and urban mobility.
