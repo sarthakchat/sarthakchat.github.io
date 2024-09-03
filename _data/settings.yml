@@ -15,7 +15,7 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 news_coverage:
-- {title: 'AI in Energy Systems', publication: 'Tech Daily', date: '2024-03-15', summary: 'Dr. Chaturvedi discusses the role of AI in optimizing energy systems.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
+- {title: 'AI for Environment Permitting', publication: 'White House Briefing', date: '2024-04-29', summary: 'Our efforts in AI-driven environmental permitting have been highlighted in a recent White House briefing on AI actions', image: 'assets/img/WH.jpg', url: 'ai-energy-systems'}
 - {title: 'New Policy Framework for Sustainable Energy', publication: 'Energy Policy Journal', date: '2023-11-22', summary: 'Groundbreaking policy framework proposed for sustainable energy adoption.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
 
 social:
