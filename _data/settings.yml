@@ -6,7 +6,7 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 people:
-- {name: 'Primary Investigator', title: 'Researcher', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
+- {name: 'Sarthak Chaturvedi', title: 'Staff Scientist', department: 'Energy & Environment Directorate', institution: 'Pacific Northwest National Laboratory', institution_address: '902 Battelle Blvd, Richland, WA', phone: '(509) 375-2594', email: 'sarthak.chaturvedi@pnnl.gov', office: 'Research Operations Building', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
