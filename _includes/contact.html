@@ -1,10 +1,10 @@
 <style>
-  .contact-info {
+  .contact-link {
     color: #3498DB;
+    text-decoration: underline;
   }
-  .contact-label {
-    color: #34495E;
-    font-weight: bold;
+  .contact-link:hover {
+    color: #2980B9;
   }
 </style>
 
@@ -15,12 +15,13 @@
     <div class="row g-5 mb-5">
       <div class="col-md-7">
         <h4 style="color: #2C3E50;">{{ contact.name }}</h4>
-        <p class="contact-info">{{ contact.title }} | {{ contact.department }}</p>
-        <p class="contact-info">{{ contact.company }} | {{ contact.institution }}</p>
-        <p class="contact-info">{{ contact.institution_address }}</p>
-        <p><span class="contact-label">Phone:</span> <span class="contact-info">{{ contact.phone }}</span></p>
-        <p><span class="contact-label">Email:</span> <span class="contact-info">{{ contact.email }}</span></p>
-        <p><span class="contact-label">Office:</span> <span class="contact-info">{{ contact.office }}</span></p>
+        <p style="color: #34495E;">{{ contact.title }} | {{ contact.department }}</p>
+        <p style="color: #34495E;"><strong>{{ contact.company }}</strong></p>
+        <p style="color: #34495E;"><strong>{{ contact.institution }}</strong></p>
+        <p style="color: #34495E;">{{ contact.institution_address }}</p>
+        <p><span style="color: #2C3E50;">Phone:</span> <a href="tel:{{ contact.phone }}" class="contact-link">{{ contact.phone }}</a></p>
+        <p><span style="color: #2C3E50;">Email:</span> <a href="mailto:{{ contact.email }}" class="contact-link">{{ contact.email }}</a></p>
+        <p><span style="color: #2C3E50;">Office:</span> <span style="color: #34495E;">{{ contact.office }}</span></p>
       </div>
       <div class="col-md-5">
         <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
