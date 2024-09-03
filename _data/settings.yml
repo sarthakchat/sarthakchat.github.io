@@ -15,7 +15,15 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 news_coverage:
-- {title: 'AI in Energy Systems', publication: 'Tech Daily', date: '2024-03-15', summary: 'Dr. Chaturvedi discusses the role of AI in optimizing energy systems.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
+- {title: 'PolicyAI featured in White House Briefing', 
+publication: 'White House Briefing', 
+date: '2024-04-29', 
+summary: 'Our work has been recognized at the highest levels of government: 
+🏛️ White House Spotlight: Our efforts in AI-driven environmental permitting have been highlighted in a recent White House briefing on AI actions.
+🔍 Key Mention: The White House statement specifically noted, 'DOE is piloting AI tools to streamline permitting processes and improving siting for clean energy infrastructure.'
+This recognition underscores the importance of our work in policyAI and environmental permitting, demonstrating its potential to drive significant improvements in clean energy development', 
+image: 'assets/img/graduate-student.jpg', 
+url: 'https://www.whitehouse.gov/briefing-room/statements-releases/2024/04/29/biden-harris-administration-announces-key-ai-actions-180-days-following-president-bidens-landmark-executive-order/'}
 - {title: 'New Policy Framework for Sustainable Energy', publication: 'Energy Policy Journal', date: '2023-11-22', summary: 'Groundbreaking policy framework proposed for sustainable energy adoption.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
 
 social:
