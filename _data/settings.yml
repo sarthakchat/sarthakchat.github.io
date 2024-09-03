@@ -21,10 +21,10 @@ news_coverage:
 - {title: 'Contributing Author to Key DOE Report on AI in Energy', publication: "U.S. Department of Energy", date: '2024-04-29',summary: "I was a contributing author to a significant DOE report on AI's potential in the energy sector highlighted in a major DOE announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/sarthakchat/'}
+#- {icon: 'twitter', link: 'https://twitter.com/paululele'}
+#- {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/sarthak-chaturvedi/'}
 
 contacts:
 - {name: 'Sarthak Chaturvedi', title: 'Staff Scientist', department: 'Energy & Environment Directorate', company: 'United States Department of Energy', institution: 'Pacific Northwest National Laboratory', institution_address: '902 Battelle Blvd, Richland, WA', phone: '(509) 375-2594', email: 'sarthak.chaturvedi@pnnl.gov', office: 'Research Operations Building', image: 'assets/img/contact.jpg'}
