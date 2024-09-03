@@ -4,13 +4,13 @@
     {% for contact in site.data.settings.contacts %}
     <div class="row g-5 mb-5">
       <div class="col-md-7">
-        <h4>{{ contact.name }}</h4>
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.company }} | {{ contact.institution }}</p>
-        <p>{{ contact.institution_address }}</p>
-        <p><span style="color: #6c757d;">Phone:</span> {{ contact.phone }}</p>
-        <p><span style="color: #6c757d;">Email:</span> {{ contact.email }}</p>
-        <p><span style="color: #6c757d;">Office:</span> {{ contact.office }}</p>
+        <h4 style="color: #2C3E50; font-weight: bold;">{{ contact.name }}</h4>
+        <p style="color: #34495E;">{{ contact.title }} | {{ contact.department }}</p>
+        <p style="color: #34495E;">{{ contact.company }} | {{ contact.institution }}</p>
+        <p style="color: #34495E;">{{ contact.institution_address }}</p>
+        <p><span style="color: #2C3E50;">Phone:</span> <strong class="contact-link">{{ contact.phone }}</strong></p>
+        <p><span style="color: #2C3E50;">Email:</span> <strong class="contact-link">{{ contact.email }}</strong></p>
+        <p><span style="color: #2C3E50;">Office:</span> <strong style="color: #34495E;">{{ contact.office }}</strong></p>
       </div>
       <div class="col-md-5">
         <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
