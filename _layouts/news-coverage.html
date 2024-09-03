@@ -9,7 +9,7 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-8">
     <h5>{{ item.title }}</h5>
-    <p><strong>{{ item.publication }}</strong> - {{ item.date }}</p>
+    <p><strong style="color: #0044ff;">{{ item.publication }}</strong> - {{ item.date }}</p>
     <p>{{ item.summary }}</p>
     <p><a href="{{ site.github.url }}/news-coverage/{{ item.url }}">Read more</a></p>
   </div>
@@ -18,3 +18,4 @@ layout: default
   </div>
 </div>
 {% endfor %}
+
