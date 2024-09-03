@@ -1,23 +1,13 @@
-<style>
-  .publication-link {
-    color: #3498DB;
-    text-decoration: underline;
-  }
-  .publication-link:hover {
-    color: #2980B9; /* A slightly darker blue for hover state */
-  }
-</style>
-
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p><a href="{{ item.url }}" class="publication-link">{{ item.name }}</a></p>
+        <p><a href="{{ item.url }}" style="color: #3498DB;">{{ item.name }}</a></p>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p><a href="{{ item.url }}" class="publication-link">{{ item.name }}</a></p>
+        <p><a href="{{ item.url }}" style="color: #3498DB;">{{ item.name }}</a></p>
       {% endfor %}
     {% endif %}
   </div>
