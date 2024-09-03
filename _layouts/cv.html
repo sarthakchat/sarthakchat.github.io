@@ -4,56 +4,30 @@ layout: default
 
 {{ content }}
 
-<div class="container mt-5">
-  <h2 class="fw-bold border-bottom pb-3 mb-5">Curriculum Vitae</h2>
-  
-  <!-- Education Section -->
-  <div class="row g-5 mb-5">
-    <div class="col-md-2">
-      <h3>Education</h3>
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Education</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.education %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
     </div>
-    <div class="col-md-10">
-      {% for edu in site.data.cv.education %}
-        <div class="mb-4">
-          <h4 class="fw-bold">{{ edu.institution }}</h4>
-          <p class="text-muted">{{ edu.location }}</p>
-          {% for degree in edu.degrees %}
-            <div class="mb-3">
-              <h5>{{ degree.name }}</h5>
-              <p class="mb-1">{{ degree.year }}</p>
-              {% if degree.details %}
-                <p><em>{{ degree.details }}</em></p>
-              {% endif %}
-              {% if degree.achievements %}
-                <ul>
-                  {% for achievement in degree.achievements %}
-                    <li>{{ achievement }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          {% endfor %}
-        </div>
-        {% unless forloop.last %}<hr>{% endunless %}
-      {% endfor %}
-    </div>
-  </div>
-
-  <!-- Academic Experience Section -->
-  <!-- Experience Section -->
-  <div class="row g-5 mb-5">
-    <div class="col-md-2">
-      <h3>Experience</h3>
-    </div>
-    <div class="col-md-10">
-      {% for exp in site.data.cv.experience %}
-        <div class="mb-4">
-          <h4 class="fw-bold">{{ exp.title }}</h4>
-          <p class="mb-1">{{ exp.description }}</p>
-          <p class="text-muted">{{ exp.location }}</p>
-        </div>
-        {% unless forloop.last %}<hr>{% endunless %}
-      {% endfor %}
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Academic Experience</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.academic-experience %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
