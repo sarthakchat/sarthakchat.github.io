@@ -15,8 +15,10 @@ courses:
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
 news_coverage:
-- {title: 'White House Recognizes PolicyAI Work in Clean Energy Infrastructure', publication: 'White House Briefing', date: '2024-04-29', summary: 'The PolicyAI project I contribute to was highlighted in a White House briefing on AI actions.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
-- {title: 'DOE Features PolicyAI Initiative at PNNL', publication: 'Department of Energy', date: '2024-04-29', summary: 'The PolicyAI project I contribute to was featured in a DOE article on AI and clean energy infrastructure development.', image: 'assets/img/doe_logo.png', url: 'doe-policyai-feature'}
+- {title: 'PolicyAI Featured in CEQ Report on Modernizing Environmental Reviews', publication: 'White House Council on Environmental Quality', date: '2024-09-02', summary: 'The PolicyAI project I contribute to was highlighted in a CEQ report on using technology to improve environmental reviews and permitting processes.', image: 'assets/img/White_House.webp', url: 'ceq-policyai-report'}
+- {title: 'PolicyAI Featured in White House Report on AI Actions',', publication: 'White House Briefing', date: '2024-04-29', summary: 'The PolicyAI project I contribute to was mentioned in a White House report on key AI actions, highlighting its role in clean energy infrastructure development.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
+- {title: 'PolicyAI Featured in DOE Announcement on AI Actions', publication: 'U.S. Department of Energy', date: '2024-04-29', summary: 'The PolicyAI project I contribute to was highlighted in a DOE announcement on new actions to enhance America's global leadership in Artificial Intelligence.', image: 'assets/img/doe_logo.png', url: 'doe-policyai-feature'}
+
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
 - {icon: 'twitter', link: 'https://twitter.com/paululele'}

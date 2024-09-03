@@ -1,13 +1,16 @@
 ---
 layout: page
-title: "White House Recognizes AI Work in Clean Energy Infrastructure Permitting"
+title: \"PolicyAI in White House Report on Key AI Actions\"
 ---
 
 Publication: White House Briefing
 Date: April 29, 2024
 
-🏛️ White House Spotlight: The PolicyAI initiative, to which I contribute as a key team member, was highlighted in a recent White House briefing on AI actions.
+🏛️ White House Report Highlight: The PolicyAI initiative, to which I contribute as a key team member, was featured in a White House report on key AI actions taken 180 days following President Biden's landmark Executive Order on AI.
 
-🔍 Key Mention: The White House statement noted, 'DOE is piloting AI tools to streamline permitting processes and improving siting for clean energy infrastructure.'
+🔍 Key Mention: The report stated, 'DOE is piloting AI tools to streamline permitting processes and improving siting for clean energy infrastructure, and it has developed other powerful AI tools with applications at the intersection of energy, science, and security.'
 
-This recognition underscores the importance of the PolicyAI work in environmental permitting, demonstrating its potential to drive significant improvements in clean energy development. 
+This inclusion in the White House report underscores the significance of PolicyAI in the context of the Biden-Harris Administration's efforts to harness AI for addressing energy challenges and advancing clean energy. The report highlights how PolicyAI aligns with the administration's goals of using AI to streamline critical processes in energy infrastructure development.
+
+The mention of PolicyAI in this high-level report demonstrates its recognition as a key initiative in applying AI to solve real-world challenges in the energy sector. It showcases the project's potential to contribute to national goals of accelerating clean energy deployment and improving energy infrastructure processes.
+
