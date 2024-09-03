@@ -4,8 +4,8 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-7">
-    <h3 class="fw-bold">Bio</h3>
-    {{ content }}
+    <h3 class="fw-bold" style="color: #2C3E50;">Bio</h3>
+    <div style="color: #3498DB;">{{ content }}</div>
   </div>
   <div class="col-md-5">
     <img src="{{ site.github.url }}/assets/img/home.jpg" alt="Home" class="img-fluid w-100">
@@ -14,14 +14,14 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Featured Press Coverage</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Featured Press Coverage</h3>
     <div class="news-coverage">
       {% for item in site.data.settings.featured_news_coverage %}
         <p>
-          <strong>{{ item.title }}</strong><br>
-          <em>{{ item.publication }}</em> - {{ item.date }}<br>
-          {{ item.summary }}<br>
-          <a href="{{ site.github.url }}/news-coverage/{{ item.url }}">Read more</a>
+          <strong style="color: #2C3E50;">{{ item.title }}</strong><br>
+          <em style="color: #3498DB;">{{ item.publication }}</em> - <span style="color: #34495E;">{{ item.date }}</span><br>
+          <span style="color: #3498DB;">{{ item.summary }}</span><br>
+          <a href="{{ site.github.url }}/news-coverage/{{ item.url }}" style="color: #2980B9;">Read more</a>
         </p>
       {% endfor %}
     </div>
@@ -32,9 +32,9 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Updates</h3>
     {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      <p><a href="{{ site.github.url }}/{{ post.url }}" style="color: #3498DB;">{{ post.title }}</a> - <span style="color: #34495E;">{{ post.date | date: "%B %-d, %Y" }}</span></p>
     {% endfor %}
   </div>
 </div>
