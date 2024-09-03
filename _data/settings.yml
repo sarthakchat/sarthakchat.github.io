@@ -2,6 +2,7 @@ menu:
 - {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
 #- {name: 'courses', url: '/courses'}
+- {name: 'news coverage', url: '/news-coverage'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
@@ -12,6 +13,10 @@ courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
+
+news_coverage:
+- {title: 'AI in Energy Systems', publication: 'Tech Daily', date: '2024-03-15', summary: 'Dr. Chaturvedi discusses the role of AI in optimizing energy systems.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
+- {title: 'New Policy Framework for Sustainable Energy', publication: 'Energy Policy Journal', date: '2023-11-22', summary: 'Groundbreaking policy framework proposed for sustainable energy adoption.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
 
 social:
 - {icon: 'github', link: 'https://github.com/LeNPaul'}
