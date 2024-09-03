@@ -14,6 +14,10 @@ courses:
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
+featured_news_coverage:
+- {title: 'PolicyAI Featured in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: 'The PolicyAI project I contribute to was mentioned in a White House report on key AI actions, highlighting its role in clean energy infrastructure development.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
+- {title: 'Contributing Author to Key DOE Report on AI in Energy', publication: "U.S. Department of Energy", date: '2024-04-29',summary: "I was a contributing author to a significant DOE report on AI's potential in the energy sector highlighted in a major DOE announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
+
 news_coverage:
 - {title: 'PolicyAI Featured in CEQ Report on Modernizing Environmental Reviews', publication: 'White House Council on Environmental Quality', date: '2024-09-02', summary: 'The PolicyAI project I contribute to was highlighted in a CEQ report on using technology to improve environmental reviews and permitting processes.', image: 'assets/img/White_House.webp', url: 'ceq-policyai-report'}
 - {title: 'PolicyAI Featured in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: 'The PolicyAI project I contribute to was mentioned in a White House report on key AI actions, highlighting its role in clean energy infrastructure development.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
