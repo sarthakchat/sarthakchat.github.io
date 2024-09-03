@@ -14,14 +14,6 @@ courses:
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
 - {name: 'Stellar Structures', url: 'stellar-structures'}
 
-  - {
-      title: 'White House Recognizes AI Work in Clean Energy Infrastructure Permitting',
-      publication: 'White House Briefing',
-      date: '2024-04-29',
-      summary: 'Our AI-driven environmental permitting work highlighted in White House briefing on AI actions.',
-      image: 'assets/img/WH.jpg',
-      url: 'white-house-ai-recognition'
-  }
 news_coverage:
 - {title: 'White House Recognizes AI Work in Clean Energy Infrastructure Permitting', publication: 'White House Briefing', date: '2024-04-29', summary: 'Our AI-driven environmental permitting work highlighted in White House briefing on AI actions.', image: 'assets/img/WH.jpg', url: 'white-house-ai-recognition'}
 - {title: 'New Policy Framework for Sustainable Energy', publication: 'Energy Policy Journal', date: '2023-11-22', summary: 'Groundbreaking policy framework proposed for sustainable energy adoption.', image: 'assets/img/graduate-student.jpg', url: 'ai-energy-systems'}
