@@ -1,9 +1,11 @@
 featured:
+- {name: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy', url: 'https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf'}
 - {name: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension. arXiv preprint arXiv:2407.07321.', url: 'https://arxiv.org/abs/2407.07321'}
 - {name: 'A generative ai approach to pricing mechanisms and consumer behavior in the electric vehicle charging market. In Proceedings of the AAAI Symposium Series (Vol. 2, No. 1, pp. 54-61).', url: 'https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649'}
 - {name: 'How Large Language Models Can Help Policymakers Detect Consumer Barriers to Innovation: Insights from EV Charging Business Models. In 2023 APPAM Fall Research Conference. APPAM.', url: 'https://appam.confex.com/appam/2023/meetingapp.cgi/Paper/50198'}
 
 index:
+- {name: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy', url: 'https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf'}
 - {name: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension. arXiv preprint arXiv:2407.07321.', url: 'https://arxiv.org/abs/2407.07321'}
 - {name: 'A generative ai approach to pricing mechanisms and consumer behavior in the electric vehicle charging market. In Proceedings of the AAAI Symposium Series (Vol. 2, No. 1, pp. 54-61).', url: 'https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649'}
 - {name: 'How Large Language Models Can Help Policymakers Detect Consumer Barriers to Innovation: Insights from EV Charging Business Models. In 2023 APPAM Fall Research Conference. APPAM.', url: 'https://appam.confex.com/appam/2023/meetingapp.cgi/Paper/50198'}
