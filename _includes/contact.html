@@ -8,9 +8,9 @@
         <p style="color: #34495E;">{{ contact.title }} | {{ contact.department }}</p>
         <p style="color: #34495E;">{{ contact.company }} | {{ contact.institution }}</p>
         <p style="color: #34495E;">{{ contact.institution_address }}</p>
-        <p><span style="color: #2C3E50;">Phone:</span> <strong class="contact-link">{{ contact.phone }}</strong></p>
-        <p><span style="color: #2C3E50;">Email:</span> <strong class="contact-link">{{ contact.email }}</strong></p>
-        <p><span style="color: #2C3E50;">Office:</span> <strong style="color: #34495E;">{{ contact.office }}</strong></p>
+        <p><span style="color: #2C3E50;">Phone:</span> <span class="contact-link">{{ contact.phone }}</span></p>
+        <p><span style="color: #2C3E50;">Email:</span> <span class="contact-link">{{ contact.email }}</span></p>
+        <p><span style="color: #2C3E50;">Office:</span> <span style="color: #34495E;">{{ contact.office }}</span></p>
       </div>
       <div class="col-md-5">
         <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
