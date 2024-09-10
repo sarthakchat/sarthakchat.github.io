@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-
 {{ content }}
-
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">CV</h3>
@@ -14,16 +12,16 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.cv.academic-experience %}
           <div class="row mb-4">
-            <div class="col-md-3">
-              {% if section.image %}
-                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="img-fluid mb-3">
-              {% endif %}
-            </div>
             <div class="col-md-9">
               <p class="fw-bold" style="color: #2C3E50;">{{ section.title }}</p>
               <p style="color: #3498DB;">{{ section.description }}</p>
               {% if section.details %}
                 <p><em style="color: #34495E;">{{ section.details }}</em></p>
+              {% endif %}
+            </div>
+            <div class="col-md-3">
+              {% if section.image %}
+                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="img-fluid mb-3">
               {% endif %}
             </div>
           </div>
@@ -37,16 +35,16 @@ layout: default
       <div class="col-md-10">
         {% for section in site.data.cv.education %}
           <div class="row mb-4">
-            <div class="col-md-3">
-              {% if section.image %}
-                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="img-fluid mb-3">
-              {% endif %}
-            </div>
             <div class="col-md-9">
               <p class="fw-bold" style="color: #2C3E50;">{{ section.title }}</p>
               <p style="color: #3498DB;">{{ section.description }}</p>
               {% if section.details %}
                 <p><em style="color: #34495E;">{{ section.details }}</em></p>
+              {% endif %}
+            </div>
+            <div class="col-md-3">
+              {% if section.image %}
+                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="img-fluid mb-3">
               {% endif %}
             </div>
           </div>
