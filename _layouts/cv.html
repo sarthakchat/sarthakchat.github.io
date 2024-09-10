@@ -13,10 +13,10 @@ layout: default
         {% for section in site.data.cv.academic-experience %}
           <div class="row mb-4">
             <div class="col-md-9">
-              <p class="fw-bold" style="color: #2C3E50;">{{ section.title }}</p>
-              <p style="color: #3498DB;">{{ section.description }}</p>
+              <p class="fw-bold mb-0" style="color: #2C3E50;">{{ section.title }}</p>
+              <p class="mb-0" style="color: #3498DB;">{{ section.description }}</p>
               {% if section.details %}
-                <p><em style="color: #34495E;">{{ section.details }}</em></p>
+                <p class="mb-0"><em style="color: #34495E;">{{ section.details }}</em></p>
               {% endif %}
             </div>
             <div class="col-md-3">
@@ -36,10 +36,10 @@ layout: default
         {% for section in site.data.cv.education %}
           <div class="row mb-4">
             <div class="col-md-9">
-              <p class="fw-bold" style="color: #2C3E50;">{{ section.title }}</p>
-              <p style="color: #3498DB;">{{ section.description }}</p>
+              <p class="fw-bold mb-0" style="color: #2C3E50;">{{ section.title }}</p>
+              <p class="mb-0" style="color: #3498DB;">{{ section.description }}</p>
               {% if section.details %}
-                <p><em style="color: #34495E;">{{ section.details }}</em></p>
+                <p class="mb-0"><em style="color: #34495E;">{{ section.details }}</em></p>
               {% endif %}
             </div>
             <div class="col-md-3">
