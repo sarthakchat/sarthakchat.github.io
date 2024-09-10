@@ -1,11 +1,16 @@
 - title: 'Staff Scientist - AI for Sustainability and Energy'
   description: 'Pacific Northwest National Laboratory (2023 – present)'
   location: 'Richland, WA'
+  image: "assets/img/doe_logo.png"
+
 
 - title: 'Graduate Research Assistant'
   description: 'Georgia Institute of Technology  (2021 – 2023)'
   location: 'Atlanta, GA'
+  image: "assets/img/doe_logo.png"
+
 
 - title: 'Research Fellow'
   description: 'Robert Bosch Centre for Data Science and Artificial Intelligence  (2020 – 2021)'
   location: 'Indian Institute of Technology Madras, Chennai'
+  image: "assets/img/doe_logo.png"
