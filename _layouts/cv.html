@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<style>
+  .cv-image {
+    height: 100px; /* Adjust this value as needed */
+    width: auto;
+    object-fit: contain;
+    max-width: 100%;
+  }
+</style>
+
 {{ content }}
 <div class="row g-5 mb-5">
   <div>
@@ -19,9 +28,9 @@ layout: default
                 <p class="mb-0"><em style="color: #34495E;">{{ section.details }}</em></p>
               {% endif %}
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-flex align-items-center justify-content-center">
               {% if section.image %}
-                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="img-fluid mb-3">
+                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="cv-image">
               {% endif %}
             </div>
           </div>
@@ -42,9 +51,9 @@ layout: default
                 <p class="mb-0"><em style="color: #34495E;">{{ section.details }}</em></p>
               {% endif %}
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 d-flex align-items-center justify-content-center">
               {% if section.image %}
-                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="img-fluid mb-3">
+                <img src="{{ site.github.url }}/{{ section.image }}" alt="{{ section.title }}" class="cv-image">
               {% endif %}
             </div>
           </div>
