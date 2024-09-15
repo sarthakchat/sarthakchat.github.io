@@ -1,7 +1,11 @@
-url: "https://sarthakchat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+#url: "https://sarthakchat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
 #title: "Sarthak Chaturvedi" # the name of your site, e.g. ACME Corp.
 #description: "AI Researcher Transforming Energy Sustainability & Public Policy
-title: '<span style="color: #2C3E50;">Sarthak Chaturvedi</span>'
-description: '<span style="color: #3498DB;">AI Researcher Transforming Energy Sustainability & Public Policy</span>'
+#title: '<span style="color: #2C3E50;">Sarthak Chaturvedi</span>'
+#description: '<span style="color: #3498DB;">AI Researcher Transforming Energy Sustainability & Public Policy</span>'
 
+url: "https://sarthakchat.github.io"
+baseurl: ""
+title: "Sarthak Chaturvedi"
+description: "AI Researcher Transforming Energy Sustainability & Public Policy"
