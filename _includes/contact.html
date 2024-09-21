@@ -4,20 +4,22 @@
     {% for contact in site.data.settings.contacts %}
     <div class="row g-5 mb-5">
       <div class="col-md-7">
-        <h4>{{ contact.name }}</h4>
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.company }} | {{ contact.institution }}</p>
-        <p>{{ contact.institution_address }}</p>
+        <h4 style="color: #2C3E50; font-weight: bold;">{{ contact.name }}</h4>
+        <p style="color: #34495E;">{{ contact.title }} | {{ contact.department }}</p>
+        <p style="color: #42911a;">{{ contact.company }} | {{ contact.institution }}</p>
+        <p style="color: #34495E;">{{ contact.institution_address }}</p>
         <p>
           <span style="color: #2C3E50;">Phone:</span> 
           {% capture phone_html %}{{ contact.phone }}{% endcapture %}
           {% assign phone_parts = phone_html | split: '>' %}
           {% assign phone_number = phone_parts[1] | split: '<' | first %}
-          {% assign anonymized_number = phone_number | slice: 0, -4 | append: '****' %}
+          {% assign area_code = phone_number | slice: 1, 3 %}
+          {% assign prefix = phone_number | slice: 6, 3 %}
+          {% assign anonymized_number = '(' | append: area_code | append: ') ' | append: prefix | append: '-****' %}
           {{ phone_parts[0] }}>{{ anonymized_number }}</span>
         </p>
-        <p><span style="color: #2C3E50;">Email:</span> {{ contact.email }}</p>
-        <p><span style="color: #2C3E50;">Office:</span> {{ contact.office }}</p>
+        <p><span style="color: #2C3E50;">Email:</span> <span class="contact-link">{{ contact.email }}</span></p>
+        <p><span style="color: #2C3E50;">Office:</span> <span style="color: #34495E;">{{ contact.office }}</span></p>
       </div>
       <div class="col-md-5">
         <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
