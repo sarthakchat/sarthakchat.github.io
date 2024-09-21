@@ -7,14 +7,14 @@ layout: default
 <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Publications</h3>
 {% for item in site.data.settings.publications %}
 <div class="row g-5 mb-5">
-  <div class="col-md-8">
+  <div class="col-md-10">
     <h5 style="color: #2C3E50;">{{ item.title }}</h5>
     <p><i style="color: #3498DB;">{{ item.publication }}</i> - {{ item.date }}</p>
     <p style="color: #2C3E50;">{{ item.summary }}</p>
     <p><a href="{{ site.github.url }}/featured-publications/{{ item.url }}" style="color: #2C3E50;">Read more</a></p>
   </div>
-  <div class="col-md-4">
-    <img src="{{ site.github.url }}/{{ item.image }}" alt="{{ item.title }}" width="50%">
+  <div class="col-md-2">
+    <img src="{{ site.github.url }}/{{ item.image }}" alt="{{ item.title }}" width="100%">
   </div>
 </div>
 {% endfor %}
