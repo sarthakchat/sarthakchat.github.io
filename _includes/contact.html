@@ -8,7 +8,17 @@
         <p style="color: #34495E;">{{ contact.title }} | {{ contact.department }}</p>
         <p style="color: #42911a;">{{ contact.company }} | {{ contact.institution }}</p>
         <p style="color: #34495E;">{{ contact.institution_address }}</p>
-        <p><span style="color: #2C3E50;">Phone:</span> <span class="contact-link">{{ contact.phone }}</span></p>
+        <p><span style="color: #2C3E50;">Phone:</span> <span class="contact-link">
+          {% assign phone_parts = contact.phone | split: ' ' %}
+          {% for part in phone_parts %}
+            {% if forloop.index == phone_parts.size %}
+              {{ part | slice: 0, 2 }}{{ "****" }}
+            {% else %}
+              {{ part }}
+            {% endif %}
+            {% unless forloop.last %} {% endunless %}
+          {% endfor %}
+        </span></p>
         <p><span style="color: #2C3E50;">Email:</span> <span class="contact-link">{{ contact.email }}</span></p>
         <p><span style="color: #2C3E50;">Office:</span> <span style="color: #34495E;">{{ contact.office }}</span></p>
       </div>
