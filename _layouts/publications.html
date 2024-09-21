@@ -4,18 +4,35 @@ layout: default
 
 {{ content }}
 
-<h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
-
-<h4 class="mb-3">Featured Publications</h4>
-{% for publication in site.data.settings.publications.featured %}
-<div class="mb-4">
-  <h5><a href="{{ publication.url }}" target="_blank">{{ publication.name }}</a></h5>
+<h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Featured Publications</h3>
+{% for item in site.data.settings.publications.featured %}
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h5 style="color: #2C3E50;">{{ item.name }}</h5>
+    <p><a href="{{ item.url }}" target="_blank" style="color: #2C3E50;">Read publication</a></p>
+  </div>
 </div>
 {% endfor %}
 
-<h4 class="mt-5 mb-3">All Publications</h4>
-{% for publication in site.data.settings.publications.index %}
-<div class="mb-4">
-  <h5><a href="{{ publication.url }}" target="_blank">{{ publication.name }}</a></h5>
+<h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">All Publications</h3>
+{% for item in site.data.settings.publications.index %}
+<div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h5 style="color: #2C3E50;">{{ item.name }}</h5>
+    <p><a href="{{ item.url }}" target="_blank" style="color: #2C3E50;">Read publication</a></p>
+  </div>
 </div>
 {% endfor %}
+
+
+
+<!-- ##{% include publications.html %}
+
+
+---
+layout: default
+---
+
+{{ content }}
+
+{% include publications.html %} -->
