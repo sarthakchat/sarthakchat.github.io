@@ -32,13 +32,13 @@ layout: default
 <div class="row g-5 mb-5">
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Featured Publications</h3>
-    <div class="news-coverage">
+    <div class="featured-publications">
       {% for item in site.data.settings.featured_publications %}
         <p>
           <strong style="color: #2C3E50;">{{ item.title }}</strong><br>
           <em style="color: #3498DB;">{{ item.publication }}</em> - <span style="color: #34495E;">{{ item.date }}</span><br>
           <span style="color: #2C3E50;">{{ item.summary }}</span><br>
-          <a href="{{ site.github.url }}/featured_publications/{{ item.url }}" style="color: #2980B9;">Read more</a>
+          <a href="{{ site.github.url }}/featured-publications/{{ item.url }}" style="color: #2980B9;">Read more</a>
         </p>
       {% endfor %}
     </div>
