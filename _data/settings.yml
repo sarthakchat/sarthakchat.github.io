@@ -25,6 +25,17 @@ news_coverage:
   - {title: 'Mentioned in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: 'A White House report on key AI actions recognized my work on an AI project supporting clean energy infrastructure development.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
   - {title: 'Highlighted in DOE Announcement on AI Actions', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "A DOE announcement on actions to enhance America's AI leadership showcased an AI project I contribute to.", image: 'assets/img/doe_logo.png', url: 'doe-policyai-feature'}
 
+featured_publications:
+  - {title: 'White House CEQ Report Features Work on Modernizing Environmental Reviews', publication: 'White House Council on Environmental Quality', date: '2024-09-02', summary: 'My contributions to AI-driven environmental review modernization were featured in a White House CEQ report.', image: 'assets/img/White_House.webp', url: 'ceq-policyai-report'}
+  - {title: 'Contributing Author to Key DOE Report on AI in Energy', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "I contributed to a significant DOE report, highlighted in a major announcement, on AI's potential to transform the energy sector.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
+  - {title: 'Mentioned in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: 'A White House report on key AI actions recognized my work on an AI project supporting clean energy infrastructure development.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
+
+publications:
+  - {title: 'White House CEQ Report Features Work on Modernizing Environmental Reviews', publication: 'White House Council on Environmental Quality', date: '2024-09-02', summary: 'My contributions to AI-driven environmental review modernization were featured in a White House CEQ report.', image: 'assets/img/White_House.webp', url: 'ceq-policyai-report'}
+  - {title: 'Contributing Author to Key DOE Report on AI in Energy', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "I contributed to a significant DOE report, highlighted in a major announcement, on AI's potential to transform the energy sector.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
+  - {title: 'Mentioned in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: 'A White House report on key AI actions recognized my work on an AI project supporting clean energy infrastructure development.', image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
+  - {title: 'Highlighted in DOE Announcement on AI Actions', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "A DOE announcement on actions to enhance America's AI leadership showcased an AI project I contribute to.", image: 'assets/img/doe_logo.png', url: 'doe-policyai-feature'}
+
 social:
 - {icon: 'github', link: 'https://github.com/sarthakchat/'}
 #- {icon: 'twitter', link: 'https://twitter.com/paululele'}
@@ -35,25 +46,25 @@ contacts:
 - {name: '<span style="color: #2C3E50;">Sarthak Chaturvedi</span>', title: '<span style="color: #3498DB;">Staff Scientist</span>', department: '<span style="color: #3498DB;">Energy & Environment Directorate</span>', company: '<span style="color: #2C3E50;"><b>United States Department of Energy</b></span>', institution: '<span style="color: #2C3E50;"><b>Pacific Northwest National Laboratory</b></span>', institution_address: '<span style="color: #2C3E50;">902 Battelle Blvd, Richland, WA</span>', phone: '<span style="color: #2C3E50;">(509) 375-2594</span>', email: '<span style="color: #2C3E50;">[firstname].[lastname]@pnnl.gov</span>', office: '<span style="color: #2C3E50;">Research Operations Building</span>', image: 'assets/img/contact.jpg'}
 
 
-publications:
-  featured:
-    - {name: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy',
-      url: 'https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf'}
-    - {name: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension. arXiv preprint arXiv:2407.07321.',
-      url: 'https://arxiv.org/abs/2407.07321'}
-    - {name: 'A generative ai approach to pricing mechanisms and consumer behavior in the electric vehicle charging market. In Proceedings of the AAAI Symposium Series (Vol. 2, No. 1, pp. 54-61).',
-      url: 'https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649'}
+# publications:
+#   featured:
+#     - {name: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy',
+#       url: 'https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf'}
+#     - {name: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension. arXiv preprint arXiv:2407.07321.',
+#       url: 'https://arxiv.org/abs/2407.07321'}
+#     - {name: 'A generative ai approach to pricing mechanisms and consumer behavior in the electric vehicle charging market. In Proceedings of the AAAI Symposium Series (Vol. 2, No. 1, pp. 54-61).',
+#       url: 'https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649'}
 
-  index:
-    - {name: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy',
-      url: 'https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf'}
-    - {name: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension. arXiv preprint arXiv:2407.07321.',
-      url: 'https://arxiv.org/abs/2407.07321'}
-    - {name: 'A generative ai approach to pricing mechanisms and consumer behavior in the electric vehicle charging market. In Proceedings of the AAAI Symposium Series (Vol. 2, No. 1, pp. 54-61).',
-      url: 'https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649'}
-    - {name: 'How Large Language Models Can Help Policymakers Detect Consumer Barriers to Innovation: Insights from EV Charging Business Models. In 2023 APPAM Fall Research Conference. APPAM.',
-      url: 'https://appam.confex.com/appam/2023/meetingapp.cgi/Paper/50198'}
-    - {name: 'Traffic state estimation using DSRC-enabled probe vehicles. In 2021 International Conference on COMmunication Systems & NETworkS (COMSNETS) (pp. 715-722). IEEE.',
-      url: 'https://ieeexplore.ieee.org/abstract/document/9352843'}
-    - {name: 'Data Imputation for Traffic State Estimation and Pre-diction Using Wi-Fi Sensors. In Conference of Transportation Research Group of India (pp. 385-395). Singapore: Springer Nature Singapore.',
-      url: 'https://link.springer.com/chapter/10.1007/978-981-19-4204-4_23'}
+#   index:
+#     - {name: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy',
+#       url: 'https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf'}
+#     - {name: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension. arXiv preprint arXiv:2407.07321.',
+#       url: 'https://arxiv.org/abs/2407.07321'}
+#     - {name: 'A generative ai approach to pricing mechanisms and consumer behavior in the electric vehicle charging market. In Proceedings of the AAAI Symposium Series (Vol. 2, No. 1, pp. 54-61).',
+#       url: 'https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649'}
+#     - {name: 'How Large Language Models Can Help Policymakers Detect Consumer Barriers to Innovation: Insights from EV Charging Business Models. In 2023 APPAM Fall Research Conference. APPAM.',
+#       url: 'https://appam.confex.com/appam/2023/meetingapp.cgi/Paper/50198'}
+#     - {name: 'Traffic state estimation using DSRC-enabled probe vehicles. In 2021 International Conference on COMmunication Systems & NETworkS (COMSNETS) (pp. 715-722). IEEE.',
+#       url: 'https://ieeexplore.ieee.org/abstract/document/9352843'}
+#     - {name: 'Data Imputation for Traffic State Estimation and Pre-diction Using Wi-Fi Sensors. In Conference of Transportation Research Group of India (pp. 385-395). Singapore: Springer Nature Singapore.',
+#       url: 'https://link.springer.com/chapter/10.1007/978-981-19-4204-4_23'}
