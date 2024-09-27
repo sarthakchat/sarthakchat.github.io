@@ -32,7 +32,7 @@ projects:
     publication: 'DoE Office of Energy Efficiency and Renewable Energy'
     date: '2023 - 2024'
     summary: "<ul><li>Supported critical analysis of electrical infrastructure investments required for national decarbonization.</li><li>Informed strategic decisions across energy supply and demand sectors.</li></ul>"
-    image: 'assets/img/eere_logo.jpg'
+    image: 'assets/img/doe-eere-logo.png'
     url: 'ceq-policyai-report' 
 
   - title: 'Intelligent Power System Data Management Platform'
