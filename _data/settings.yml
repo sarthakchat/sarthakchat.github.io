@@ -14,7 +14,7 @@ projects:
     image: 'assets/img/godeeep_logo.png'
     url: 'ceq-policyai-report'
 
-  - title: 'PolicyAI'
+  - title: 'PolicyAI, AI for improving environmental permitting outcomes and efficiency'
     publication: 'DoE Office of Policy'
     date: '2024 - Present'
     summary: "<ul><li>Led development of Retrieval-augmented Generation (RAG) models to automate analysis of environmental permitting documents for US government agencies.</li><li>Collaborated with CEQ and OSTP at the White House to align AI solutions with federal environmental policy objectives.</li><li>Developed a domain-specific embedding model for environmental permitting, enhancing information retrieval accuracy.</li><li>Featured in White House briefing on AI actions; recognized in DOE announcement for AI tools to streamline permitting processes.</li></ul>"
