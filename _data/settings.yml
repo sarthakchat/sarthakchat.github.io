@@ -10,37 +10,38 @@ projects:
   - title: 'Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GoDEEEP)'
     publication: 'Pacific Northwest National Lab Initiative'
     date: '2024 - Present'
-    summary: "- Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data, significantly reducing technical barriers to grid data analysis.\n- Filed invention disclosure for Grid Copilot, recognizing its potential for commercialization and broader impact in the energy sector."
+    summary: "<ul><li>Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data, significantly reducing technical barriers to grid data analysis.</li><li>Filed invention disclosure for Grid Copilot, recognizing its potential for commercialization and broader impact in the energy sector.</li></ul>"
     image: 'assets/img/godeeep_logo.png'
     url: 'ceq-policyai-report'
 
   - title: 'Decarbonizing Energy through Collaborative Analysis of Routes and Benefits'
     publication: 'DoE Office of Energy Efficiency and Renewable Energy (EERE)'
     date: '2023 - 2024'
-    summary: "- Supported critical analysis of electrical infrastructure investments required for national decarbonization.\n- Informed strategic decisions across energy supply and demand sectors."
+    summary: "<ul><li>Supported critical analysis of electrical infrastructure investments required for national decarbonization.</li><li>Informed strategic decisions across energy supply and demand sectors.</li></ul>"
     image: 'assets/img/eere_logo.jpg'
     url: 'ceq-policyai-report'
 
   - title: 'PolicyAI'
     publication: 'DoE Office of Policy'
     date: '2024 - Present'
-    summary: "- Led development of Retrieval-augmented Generation (RAG) models to automate analysis of environmental permitting documents.\n- Collaborated with CEQ and OSTP at the White House to align AI solutions with federal environmental policy objectives.\n- Developed a domain-specific embedding model for environmental permitting.\n- Featured in White House briefing on AI actions; recognized in DOE announcement for AI tools to streamline permitting processes."
+    summary: "<ul><li>Led development of Retrieval-augmented Generation (RAG) models to automate analysis of environmental permitting documents for US government agencies.</li><li>Collaborated with CEQ and OSTP at the White House to align AI solutions with federal environmental policy objectives.</li><li>Developed a domain-specific embedding model for environmental permitting, enhancing information retrieval accuracy.</li><li>Featured in White House briefing on AI actions; recognized in DOE announcement for AI tools to streamline permitting processes.</li></ul>"
     image: 'assets/img/OP_logo.jpg'
     url: 'ceq-policyai-report'
 
   - title: 'Integrated Intermodal Freight Models and Tools for Efficiency and Resiliency'
     publication: 'Advanced Research Projects Agency–Energy'
     date: '2023 - Present'
-    summary: "- Contributed to development of a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.\n- Evaluated sustainable fuel impacts on freight systems, enhancing transportation sustainability."
+    summary: "<ul><li>Contributed to development of a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.</li><li>Evaluated sustainable fuel impacts on freight systems, enhancing transportation sustainability.</li></ul>"
     image: 'assets/img/arpae_logo.png'
     url: 'ceq-policyai-report'
 
   - title: 'Intelligent Power System Data Management Platform'
     publication: 'Pacific Northwest National Lab Initiative'
     date: '2024 - 2024'
-    summary: "- Led development of a customized multi-task LLM for power system data analytics and visualization.\n- Reduced modeling preparation time from days to minutes."
-    image: 'assets/img/lab_logo.png'
+    summary: "<ul><li>Led development of a customized multi-task LLM for power system data analytics and visualization.</li><li>Reduced modeling preparation time from days to minutes.</li></ul>"
+    image: 'assets/img/pnnl_logo.png'
     url: 'ceq-policyai-report'
+
 
 
 
