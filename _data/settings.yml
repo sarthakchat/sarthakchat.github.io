@@ -22,7 +22,7 @@ projects:
     summary: |
       - Supported critical analysis of electrical infrastructure investments required for national decarbonization.
       - Informed strategic decisions across energy supply and demand sectors.
-    image: 'assets/img/eere_logo.png'
+    image: 'assets/img/eere_logo.jpg'
     url: 'ceq-policyai-report'
 
   - title: 'PolicyAI'
