@@ -1,14 +1,22 @@
 menu:
-#- {name: 'people', url: '/people'}
 - {name: 'publications', url: '/publications'}
 #- {name: 'courses', url: '/courses'}
 - {name: 'press', url: '/news-coverage'}
+- {name: 'projects', url: '/projects'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
-people:
-- {name: 'Sarthak Chaturvedi', title: 'Staff Scientist', department: 'Energy & Environment Directorate', institution: 'Pacific Northwest National Laboratory', institution_address: '902 Battelle Blvd, Richland, WA', phone: '(509) 375-2594', email: 'sarthak.chaturvedi@pnnl.gov', office: 'Research Operations Building', image: 'assets/img/primary-investigator.jpg', url: 'primary-investigator'}
-
+projects:
+  - {title: 'Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GoDEEEP)', publication: 'Pacific Northwest National Lab Initiative', date: '2024 - Present', summary: '• Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data, significantly reducing technical barriers to grid data analysis \n
+• Filed invention disclosure for Grid Copilot, recognizing its potential for commercialization and broader impact in the energy sector', image: 'assets/img/godeeep_logo.png'}
+  - {title: 'Decarbonizing Energy through Collaborative Analysis of Routes and Benefits', publication: "DoE Office of Energy Efficiency and Renewable Energy (EERE)", date: '2023 - 2024', summary: "• Supported critical analysis of electrical infrastructure investments required for national decarbonization, informing strategic decisions across energy supply and demand sectors", image: 'assets/img/eere_logo.png'}
+  - {title: 'PolicyAI', publication: 'DoE Office of Policy', date: '2024 - Present', summary: '• Led development of state-of-the-art Retrieval-augmented Generation (RAG) models to automate analysis of environmental permitting documents for US government agencies
+• Collaborated closely with experts from the Council on Environmental Quality (CEQ) and Office of Science and Technology Policy (OSTP) at the White House to align AI solutions with federal environmental policy objectives
+• Developed the first domain-specific embedding model for environmental permitting, significantly enhancing information retrieval accuracy and streamlining the permitting process for critical clean energy initiatives
+• Impact: Featured in White House briefing on AI actions; Recognized in DOE announcement for developing AI tools to streamline permitting processes', image: 'assets/img/OP_logo.jpg'}
+  - {title: 'Integrated Intermodal Freight Models and Tools for Efficiency and Resiliency', publication: "Advanced Research Projects Agency–Energy", date: '2023 - Present', summary: "Contributed to development of an innovative decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning to evaluate sustainable fuel impacts on freight systems, enhancing overall transportation sustainability", image: 'assets/img/arpae_logo.png'}
+ - {title: 'Intelligent Power System Data Management Platform', publication: 'Pacific Northwest National Lab Initiative', date: '2024 - 2024', summary: 'Led development of a customized multi-task LLM for power system data analytics and visualization, aiming to reduce modeling preparation time from days to minutes.', image: 'assets/img/lab_logo.png'}
+ 
 courses:
 - {name: 'Vector Calculus', url: 'vector-calculus'}
 - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
