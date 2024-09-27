@@ -2,7 +2,7 @@ menu:
 - {name: 'publications', url: '/publications'}
 #- {name: 'courses', url: '/courses'}
 - {name: 'press', url: '/news-coverage'}
-- {name: 'projects', url: '/projects'}
+#- {name: 'projects', url: '/projects'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
