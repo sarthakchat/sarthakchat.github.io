@@ -7,13 +7,13 @@ layout: default
 <h3 class="fw-bold border-bottom pb-3 mb-5" style="color: #2C3E50;">Projects</h3>
 {% for item in site.data.settings.projects %}
 <div class="row g-5 mb-5">
+  <div class="col-md-3">
+    <img src="{{ site.github.url }}/{{ item.image }}" alt="{{ item.title }}" width="100%">
+  </div>
   <div class="col-md-9">
     <h5 style="color: #2C3E50;">{{ item.title }}</h5>
     <p><i style="color: #3498DB;">{{ item.publication }}</i> - {{ item.date }}</p>
     <p style="color: #2C3E50;">{{ item.summary }}</p>
-  </div>
-  <div class="col-md-3">
-    <img src="{{ site.github.url }}/{{ item.image }}" alt="{{ item.title }}" width="100%">
   </div>
 </div>
 {% endfor %}
