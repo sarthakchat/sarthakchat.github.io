@@ -3,11 +3,11 @@ layout: home
 title: "Home"
 ---
 
-Sarthak Chaturvedi is an Applied Energy Data Scientist at the Department of Energy's Pacific Northwest National Laboratory (PNNL), focusing on developing advanced AI solutions for energy systems and environmental sustainability. His work centers on applying machine learning and data analytics to optimize power grid operations, enhance decarbonization strategies, and advance sustainable energy infrastructure.
+Sarthak Chaturvedi is an Energy Data Scientist at the Department of Energy's Pacific Northwest National Laboratory (PNNL), focusing on developing advanced AI solutions for energy systems and environmental sustainability. His work centers on applying machine learning and data analytics to optimize power grid operations, enhance decarbonization strategies, and advance sustainable energy infrastructure.
 
 At PNNL, Sarthak collaborates with multiple Department of Energy offices, including the Office of Policy, the Advanced Research Projects Agency–Energy (ARPA-E), and the Office of Energy Efficiency and Renewable Energy (EERE). His projects involve creating AI-based tools for power grid analysis, automating power system simulations to improve operational efficiency, and developing decision-support systems that integrate climate modeling with transportation planning. These efforts contribute to national goals in energy efficiency and environmental sustainability.
 
-During his graduate studies at the Georgia Institute of Technology, Sarthak's research on electric vehicle infrastructure and energy policy analysis was featured by Harvard Business School's BiGS Institute, Microsoft, and *The New York Times*.
+During his graduate studies at the Georgia Institute of Technology, Sarthak's research on electric vehicle infrastructure and energy policy analysis was featured by Harvard Business School's BiGS Institute, Microsoft, and The New York Times.
 
 Sarthak continues to leverage his expertise in machine learning and energy systems to drive innovation in the energy sector, aiming to contribute to a more sustainable and efficient energy future.
 
