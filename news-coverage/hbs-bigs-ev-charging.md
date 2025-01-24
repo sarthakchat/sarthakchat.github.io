@@ -43,5 +43,3 @@ For a detailed exploration of our findings and their implications, read the feat
 This inclusion in the HBS BiGS Institute's publication underscores the significance of our research in the context of global efforts to improve EV infrastructure and accelerate the transition to sustainable transportation. Our work aims to contribute to a more reliable and user-friendly EV charging network, ultimately supporting environmental sustainability and energy efficiency goals.
 
 ---
-
-Feel free to adjust any part of this summary to better fit your portfolio or highlight specific aspects of your contribution.
