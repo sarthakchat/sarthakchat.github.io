@@ -6,7 +6,7 @@ title: "Microsoft Features Our Lab's AI Research on EV Charging Infrastructure"
 **Publication:** Microsoft  
 **Date:** July 30, 2024
 
-🏛️ **Feature Article:** Our lab's pioneering research on enhancing electric vehicle (EV) charging infrastructure, conducted under the guidance of Dr. Omar Asensio at Georgia Tech, was featured in a Microsoft article titled "**Leveraging AI to Enhance EV Charging Infrastructure**." As a contributing member of the research team, I played a significant role in this project.
+🏛️ **Feature Article:** Our lab's research on enhancing electric vehicle (EV) charging infrastructure, conducted under the guidance of Dr. Omar Asensio at Georgia Tech, was featured in a Microsoft article titled "**Leveraging AI to Enhance EV Charging Infrastructure**." As a contributing member of the research team, I played a significant role in this project.
 
 🔍 **Key Insights:**
 

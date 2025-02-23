@@ -6,7 +6,7 @@ title: "Harvard BiGS Institute Features Research on EV Charging Infrastructure"
 **Publication:** Harvard Business School Institute for Business in Global Society  
 **Date:** June 26, 2024
 
-🏛️ **Feature Article:** Our pioneering research on electric vehicle (EV) charging infrastructure, co-authored with my advisor Dr. Omar Asensio, was featured in an article by the Harvard Business School's Institute for Business in Global Society (BiGS) titled "**The state of EV charging in America: Harvard research shows chargers 78% reliable and pricing like the ‘Wild West’**."
+🏛️ **Feature Article:** Our research on electric vehicle (EV) charging infrastructure, co-authored with my advisor Dr. Omar Asensio, was featured in an article by the Harvard Business School's Institute for Business in Global Society (BiGS) titled "**The state of EV charging in America: Harvard research shows chargers 78% reliable and pricing like the ‘Wild West’**."
 
 🔍 **Key Insights:**
 
