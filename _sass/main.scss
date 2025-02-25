@@ -13,23 +13,3 @@ body a {
   color: $linkColor
 }
 
-// Add these new styles for publications
-.row.g-5.mb-5 {
-  display: flex;
-  align-items: start;
-  margin-bottom: 3rem;
-}
-
-.publication-image {
-  max-width: 200px;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin-right: 1rem;
-}
-
-@media (max-width: 768px) {
-  .publication-image {
-    max-width: 150px;
-  }
-}
