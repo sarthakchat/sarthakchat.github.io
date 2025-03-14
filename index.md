@@ -1,3 +1,20 @@
+---
+layout: home
+title: "Home"
+---
+
+Sarthak is a Staff Scientist at the U.S. Department of Energy's Pacific Northwest National Laboratory (PNNL), where he works on artificial intelligence solutions for challenges in energy and environmental domains. His work focuses on applying machine learning techniques to enhance power grid operations, support decarbonization strategies, and advance resilient energy infrastructure.
+
+At PNNL, Sarthak collaborates with various offices within the Department of Energy, including the Grid Deployment Office, the Office of Policy, the Advanced Research Projects Agency–Energy (ARPA-E), Building Technology Office (BTO), and the Office of Energy Efficiency and Renewable Energy (EERE). His projects include developing AI-based tools for power grid analysis, working on systems to automate power system simulations, and contributing to decision-support tools for transportation optimization. He also works on the PolicyAI initiative, which focuses on applying AI to streamline environmental permitting processes for clean energy infrastructure. These projects align with national goals for enhancing grid resilience and advancing sustainability.
+
+The PolicyAI initiative was featured in a White House briefing highlighting AI actions following President Biden's Executive Order on AI, and in a Department of Energy announcement on enhancing America's leadership in artificial intelligence. This recognition reflects the growing importance of AI applications in addressing energy and environmental policy challenges.
+
+During his time at the Georgia Institute of Technology, Sarthak conducted research on electric vehicle charging infrastructure and energy policy analysis. This work examined challenges in EV charging reliability and pricing transparency, and has been featured by Harvard Business School's Institute for Business in Global Society (BiGS), Microsoft, New York Times and other publications.
+
+Sarthak continues to combine technical expertise in machine learning with domain knowledge in energy systems to develop practical solutions for energy and environmental challenges.
+
+
+
 <!-- ---
 layout: home
 title: "Home"
@@ -17,18 +34,5 @@ Building on his expertise in machine learning and energy systems, Sarthak contin
 
 At PNNL, Sarthak collaborates across multiple Department of Energy offices, including the Office of Policy, Advanced Research Projects Agency-Energy (ARPA-E), and Office of Energy Efficiency and Renewable Energy (EERE), to advance high-impact energy technologies and support data-driven policymaking. His projects span crucial areas including national decarbonization strategies, power grid analysis, and alternative fuel adoption in freight transportation, addressing key challenges in critical energy and environmental sectors. Sarthak's work on PolicyAI and environmental permitting has been recognized in White House briefings and Department of Energy announcements, inspiring legislation to boost AI applications in federal permitting processes. -->
 
----
-layout: home
-title: "Home"
----
 
-Sarthak is a Staff Scientist at the U.S. Department of Energy's Pacific Northwest National Laboratory (PNNL), where he works on artificial intelligence solutions for challenges in energy and environmental domains. His work focuses on applying machine learning techniques to enhance power grid operations, support decarbonization strategies, and advance resilient energy infrastructure.
-
-At PNNL, Sarthak collaborates with various offices within the Department of Energy, including the Grid Deployment Office, the Office of Policy, the Advanced Research Projects Agency–Energy (ARPA-E), Building Technology Office (BTO), and the Office of Energy Efficiency and Renewable Energy (EERE). His projects include developing AI-based tools for power grid analysis, working on systems to automate power system simulations, and contributing to decision-support tools for transportation optimization. He also works on the PolicyAI initiative, which focuses on applying AI to streamline environmental permitting processes for clean energy infrastructure. These projects align with national goals for enhancing grid resilience and advancing sustainability.
-
-The PolicyAI initiative was featured in a White House briefing highlighting AI actions following President Biden's Executive Order on AI, and in a Department of Energy announcement on enhancing America's leadership in artificial intelligence. This recognition reflects the growing importance of AI applications in addressing energy and environmental policy challenges.
-
-During his time at the Georgia Institute of Technology, Sarthak conducted research on electric vehicle charging infrastructure and energy policy analysis. This work examined challenges in EV charging reliability and pricing transparency, and has been featured by Harvard Business School's Institute for Business in Global Society (BiGS), Microsoft, New York Times and other publications.
-
-Sarthak continues to combine technical expertise in machine learning with domain knowledge in energy systems to develop practical solutions for energy and environmental challenges.
 
