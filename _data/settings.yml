@@ -6,39 +6,75 @@ menu:
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
+# projects:
+#   - title: 'Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GoDEEEP)'
+#     publication: 'Pacific Northwest National Lab Initiative'
+#     date: '2024 - Present'
+#     summary: "<ul><li>Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data, significantly reducing technical barriers to grid data analysis.</li><li>Filed invention disclosure for Grid Copilot, recognizing its potential for commercialization and broader impact in the energy sector.</li></ul>"
+#     image: 'assets/img/godeeep_logo.png'
+#     url: 'ceq-policyai-report'
+
+#   - title: 'PolicyAI, AI for improving environmental permitting outcomes and efficiency'
+#     publication: 'DoE Office of Policy'
+#     date: '2024 - Present'
+#     summary: "<ul><li>Led development of Retrieval-augmented Generation (RAG) models to automate analysis of environmental permitting documents for US government agencies.</li><li>Collaborated with CEQ and OSTP at the White House to align AI solutions with federal environmental policy objectives.</li><li>Developed a domain-specific embedding model for environmental permitting, enhancing information retrieval accuracy.</li><li>Featured in White House briefing on AI actions; recognized in DOE announcement for AI tools to streamline permitting processes.</li></ul>"
+#     image: 'assets/img/doe_logo.png'
+#     url: 'ceq-policyai-report'
+
+#   - title: 'Integrated Intermodal Freight Modeling for Efficiency and Resiliency'
+#     publication: 'Advanced Research Projects Agency–Energy'
+#     date: '2023 - Present'
+#     summary: "<ul><li>Contributed to development of a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.</li><li>Evaluated sustainable fuel impacts on freight systems, enhancing transportation sustainability.</li></ul>"
+#     image: 'assets/img/arpae_logo.png'
+#     url: 'ceq-policyai-report'
+
+#   - title: 'Decarbonizing Energy through Collaborative Analysis of Routes and Benefits (DECARB)'
+#     publication: 'DoE Office of Energy Efficiency and Renewable Energy'
+#     date: '2023 - 2024'
+#     summary: "<ul><li>Supported critical analysis of electrical infrastructure investments required for national decarbonization.</li><li>Informed strategic decisions across energy supply and demand sectors.</li></ul>"
+#     image: 'assets/img/doe-eere-logo.png'
+#     url: 'ceq-policyai-report' 
+
+#   - title: 'Intelligent Power System Data Management Platform'
+#     publication: 'Pacific Northwest National Lab Initiative'
+#     date: '2024 - 2024'
+#     summary: "<ul><li>Led development of a customized multi-task LLM for power system data analytics and visualization.</li><li>Reduced modeling preparation time from days to minutes.</li></ul>"
+#     image: 'assets/img/pnnl_logo.png'
+#     url: 'ceq-policyai-report'
+
 projects:
   - title: 'Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GoDEEEP)'
     publication: 'Pacific Northwest National Lab Initiative'
-    date: '2024 - Present'
-    summary: "<ul><li>Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data, significantly reducing technical barriers to grid data analysis.</li><li>Filed invention disclosure for Grid Copilot, recognizing its potential for commercialization and broader impact in the energy sector.</li></ul>"
+    date: '2024 - 2024'
+    summary: "<ul><li>Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data.</li><li>Created solution that reduces technical barriers to grid data analysis.</li><li>Filed invention disclosure for Grid Copilot for potential commercialization in the energy sector.</li></ul>"
     image: 'assets/img/godeeep_logo.png'
     url: 'ceq-policyai-report'
 
-  - title: 'PolicyAI, AI for improving environmental permitting outcomes and efficiency'
+  - title: 'PolicyAI: Enhancing Environmental Permitting Processes'
     publication: 'DoE Office of Policy'
     date: '2024 - Present'
-    summary: "<ul><li>Led development of Retrieval-augmented Generation (RAG) models to automate analysis of environmental permitting documents for US government agencies.</li><li>Collaborated with CEQ and OSTP at the White House to align AI solutions with federal environmental policy objectives.</li><li>Developed a domain-specific embedding model for environmental permitting, enhancing information retrieval accuracy.</li><li>Featured in White House briefing on AI actions; recognized in DOE announcement for AI tools to streamline permitting processes.</li></ul>"
+    summary: "<ul><li>Worked on Retrieval-augmented Generation (RAG) models for environmental permitting document analysis.</li><li>Developed domain-specific embedding model for environmental permitting to enhance information retrieval accuracy.</li><li>Project recognized in White House briefing on AI actions and DOE announcement for streamlining permitting processes.</li></ul>"
     image: 'assets/img/doe_logo.png'
     url: 'ceq-policyai-report'
 
   - title: 'Integrated Intermodal Freight Modeling for Efficiency and Resiliency'
     publication: 'Advanced Research Projects Agency–Energy'
-    date: '2023 - Present'
-    summary: "<ul><li>Contributed to development of a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.</li><li>Evaluated sustainable fuel impacts on freight systems, enhancing transportation sustainability.</li></ul>"
+    date: '2023 - 2024'
+    summary: "<ul><li>Contributed to a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.</li><li>Analyzed sustainable fuel impacts on freight systems to enhance transportation sustainability.</li></ul>"
     image: 'assets/img/arpae_logo.png'
     url: 'ceq-policyai-report'
 
   - title: 'Decarbonizing Energy through Collaborative Analysis of Routes and Benefits (DECARB)'
     publication: 'DoE Office of Energy Efficiency and Renewable Energy'
     date: '2023 - 2024'
-    summary: "<ul><li>Supported critical analysis of electrical infrastructure investments required for national decarbonization.</li><li>Informed strategic decisions across energy supply and demand sectors.</li></ul>"
+    summary: "<ul><li>Analyzed electrical infrastructure investments needed for national decarbonization goals.</li><li>Provided insights for strategic decision-making across energy supply and demand sectors.</li></ul>"
     image: 'assets/img/doe-eere-logo.png'
     url: 'ceq-policyai-report' 
 
   - title: 'Intelligent Power System Data Management Platform'
     publication: 'Pacific Northwest National Lab Initiative'
     date: '2024 - 2024'
-    summary: "<ul><li>Led development of a customized multi-task LLM for power system data analytics and visualization.</li><li>Reduced modeling preparation time from days to minutes.</li></ul>"
+    summary: "<ul><li>Developed a customized multi-task LLM for power system data analytics and visualization.</li><li>Created solution that reduces modeling preparation time significantly.</li></ul>"
     image: 'assets/img/pnnl_logo.png'
     url: 'ceq-policyai-report'
 
@@ -80,27 +116,27 @@ courses:
 
 featured_news_coverage:
   - {title: 'EV Charging Infrastructure Research Featured by HBS BiGS Institute', publication: 'Harvard Business School Institute for Business in Global Society', date: '2024-06-26', summary: "Research on EV charging station reliability and pricing was featured by the HBS BiGS Institute.", image: 'assets/img/hbs.jpg', url: 'hbs-bigs-ev-charging'}
-  - {title: 'White House CEQ Report Features PolicyAI Initiative', publication: 'White House Council on Environmental Quality', date: '2024-09-02', summary: "The PolicyAI initiative was featured in a report by the White House CEQ on modernizing environmental reviews.", image: 'assets/img/White_House.webp', url: 'ceq-policyai-report'}
   - {title: 'DOE Report on AI Applications in Energy', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "A DOE report on AI's potential to transform the energy sector was highlighted in a major departmental announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
+  - {title: 'Microsoft Features Research on Enhancing EV Charging Infrastructure', publication: 'Microsoft', date: '2024-07-30', summary: "Research leveraging AI to improve EV charging infrastructure was featured in a Microsoft case study.", image: 'assets/img/MSlogo.png', url: 'microsoft-ev-ai-feature'}
   - {title: 'PolicyAI Featured in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: "The PolicyAI initiative was featured in a White House report on key AI actions following President Biden's Executive Order.", image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
 
 news_coverage:
-  - {title: 'EV Charging Infrastructure Research Featured by HBS BiGS Institute', publication: 'Harvard Business School Institute for Business in Global Society', date: '2024-06-26', summary: "Research on EV charging station reliability and pricing was featured by the HBS BiGS Institute.", image: 'assets/img/hbs.jpg', url: 'hbs-bigs-ev-charging'}
+  - {title: 'EV Charging Infrastructure Research Featured by Harvard Business School', publication: 'Harvard Business School Institute for Business in Global Society', date: '2024-06-26', summary: "Research on EV charging station reliability and pricing was featured by the HBS BiGS Institute.", image: 'assets/img/hbs.jpg', url: 'hbs-bigs-ev-charging'}
   - {title: 'White House CEQ Report Features PolicyAI Initiative', publication: 'White House Council on Environmental Quality', date: '2024-09-02', summary: "The PolicyAI initiative was featured in a report by the White House CEQ on modernizing environmental reviews.", image: 'assets/img/White_House.webp', url: 'ceq-policyai-report'}
   - {title: 'DOE Report on AI Applications in Energy', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "A DOE report on AI's potential to transform the energy sector was highlighted in a major departmental announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
   - {title: 'PolicyAI Featured in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: "The PolicyAI initiative was featured in a White House report on key AI actions following President Biden's Executive Order.", image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
+    - {title: 'Microsoft Features Research on Enhancing EV Charging Infrastructure', publication: 'Microsoft', date: '2024-07-30', summary: "Research leveraging AI to improve EV charging infrastructure was featured in a Microsoft case study.", image: 'assets/img/MSlogo.png', url: 'microsoft-ev-ai-feature'}
   - {title: 'PolicyAI Featured in DOE Announcement on AI Actions', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "The PolicyAI initiative was featured in a Department of Energy announcement on new actions to enhance America's global leadership in Artificial Intelligence.", image: 'assets/img/doe_logo.png', url: 'doe-policyai-feature'}
-  - {title: 'Microsoft Features Research on Enhancing EV Charging Infrastructure', publication: 'Microsoft', date: '2024-07-30', summary: "Research leveraging AI to improve EV charging infrastructure was featured in a Microsoft case study.", image: 'assets/img/MSlogo.png', url: 'microsoft-ev-ai-feature'}
 
 featured_publications:
+  - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
   - {title: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy', publication: 'U.S. Department of Energy', date: '2024-04-29', summary: "This report examines AI's potential to transform the energy sector and was highlighted in a major DOE announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
   - {title: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension', publication: 'arXiv', date: '2024-07-14', summary: 'This preprint explores the use of Retrieval-Augmented Generation and long context models for environmental document analysis.', image: 'assets/img/arxiv-logo.png', url: 'arxiv'}
-  - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
 
 publications:
+  - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
   - {title: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy', publication: 'U.S. Department of Energy', date: '2024-04-29', summary: "This report examines AI's potential to transform the energy sector and was highlighted in a major DOE announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
   - {title: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension', publication: 'arXiv', date: '2024-07-14', summary: 'This preprint explores the use of Retrieval-Augmented Generation and long context models for environmental document analysis.', image: 'assets/img/arxiv-logo.png', url: 'arxiv'}
-  - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
   - {title: 'How Large Language Models Can Help Policymakers Detect Consumer Barriers to Innovation: Insights from EV Charging Business Models', publication: 'APPAM Fall Research Conference', date: '2023-11-09', summary: 'This conference paper discusses the application of Large Language Models in identifying consumer barriers to innovation in EV charging business models.', image: 'assets/img/appam-logo.png', url: 'appam'}
   - {title: 'Traffic state estimation using DSRC-enabled probe vehicles', publication: 'International Conference on COMmunication Systems & NETworkS (COMSNETS)', date: '2021-01-05', summary: 'This paper presents a method for estimating traffic states using Dedicated Short-Range Communications (DSRC) enabled probe vehicles.', image: 'assets/img/ieee-logo.png', url: 'comsnets'}
   - {title: 'Data Imputation for Traffic State Estimation and Prediction Using Wi-Fi Sensors', publication: 'Conference of Transportation Research Group of India', date: '2022-12-15', summary: 'This paper explores data imputation techniques for improving traffic state estimation and prediction using Wi-Fi sensors.', image: 'assets/img/trb-logo.png', url: 'springer'}
