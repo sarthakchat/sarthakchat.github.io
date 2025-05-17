@@ -1,17 +1,17 @@
 - title: 'Staff Scientist - AI for Energy'
-  description: 'Pacific Northwest National Laboratory (2023 – present)'
+  description: 'Pacific Northwest National Laboratory'
   location: 'Seattle, WA'
   image: "assets/img/PNNL Horizontal Logo.png"
 
 
 - title: 'Graduate Research Assistant'
-  description: 'Georgia Institute of Technology  (2021 – 2023)'
+  description: 'Georgia Institute of Technology'
   location: 'Atlanta, GA'
   image: "assets/img/extended-RGB.png"
 
 
 - title: 'Research Fellow'
-  description: 'Robert Bosch Centre for Data Science and Artificial Intelligence  (2020 – 2021)'
+  description: 'Robert Bosch Centre for Data Science and Artificial Intelligence'
   location: 'Indian Institute of Technology Madras, Chennai'
   #image: "assets/img/rbcdsai.svg"
 
