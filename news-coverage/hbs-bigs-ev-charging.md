@@ -25,7 +25,3 @@ This study examined over **1 million EV charging station reviews** across North 
 The research identifies opportunities for business innovation in reliability solutions and maintenance services, while providing policymakers with data to develop more effective regulations for standardizing and expanding charging networks.
 
 **Read More:** [The state of EV charging in America](https://www.hbs.edu/bigs/the-state-of-ev-charging-in-america)
-
----
-
-This feature by the HBS BiGS Institute highlights research that contributes to improving EV infrastructure and accelerating the transition to sustainable transportation.
