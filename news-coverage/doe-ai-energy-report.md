@@ -17,4 +17,3 @@ title: "DOE Report: AI and Energy"
 The report's coverage in this major DOE announcement demonstrates its recognition as a key resource in understanding how AI can be applied to solve real-world challenges in energy infrastructure development and environmental policy.
 
 Read the full [DOE report on AI and Energy](https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf).
-
