@@ -116,9 +116,9 @@ courses:
 
 featured_news_coverage:
   - {title: 'EV Charging Infrastructure Research Featured by HBS BiGS Institute', publication: 'Harvard Business School Institute for Business in Global Society', date: '2024-06-26', summary: "Research on EV charging station reliability and pricing was featured by the HBS BiGS Institute.", image: 'assets/img/hbs.jpg', url: 'hbs-bigs-ev-charging'}
+  - {title: 'PolicyAI Featured in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: "The PolicyAI initiative was featured in a White House report on key AI actions following President Biden's Executive Order.", image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'} 
   - {title: 'DOE Report on AI Applications in Energy', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "A DOE report on AI's potential to transform the energy sector was highlighted in a major departmental announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
-  - {title: 'Microsoft Features Research on Enhancing EV Charging Infrastructure', publication: 'Microsoft', date: '2024-07-30', summary: "Research leveraging AI to improve EV charging infrastructure was featured in a Microsoft case study.", image: 'assets/img/MSlogo.png', url: 'microsoft-ev-ai-feature'}
-  - {title: 'PolicyAI Featured in White House Report on AI Actions', publication: 'White House Briefing', date: '2024-04-29', summary: "The PolicyAI initiative was featured in a White House report on key AI actions following President Biden's Executive Order.", image: 'assets/img/White_House.webp', url: 'white-house-ai-recognition'}
+#  - {title: 'Microsoft Features Research on Enhancing EV Charging Infrastructure', publication: 'Microsoft', date: '2024-07-30', summary: "Research leveraging AI to improve EV charging infrastructure was featured in a Microsoft case study.", image: 'assets/img/MSlogo.png', url: 'microsoft-ev-ai-feature'}
 
 news_coverage:
   - {title: 'EV Charging Infrastructure Research Featured by Harvard Business School', publication: 'Harvard Business School Institute for Business in Global Society', date: '2024-06-26', summary: "Research on EV charging station reliability and pricing was featured by the HBS BiGS Institute.", image: 'assets/img/hbs.jpg', url: 'hbs-bigs-ev-charging'}
@@ -129,9 +129,10 @@ news_coverage:
   - {title: 'PolicyAI Featured in DOE Announcement on AI Actions', publication: "U.S. Department of Energy", date: '2024-04-29', summary: "The PolicyAI initiative was featured in a Department of Energy announcement on new actions to enhance America's global leadership in Artificial Intelligence.", image: 'assets/img/doe_logo.png', url: 'doe-policyai-feature'}
 
 featured_publications:
-  - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
   - {title: 'US Department of Energy Report: AI for Energy - Opportunities for a Modern Grid and Clean Energy Economy', publication: 'U.S. Department of Energy', date: '2024-04-29', summary: "This report examines AI's potential to transform the energy sector and was highlighted in a major DOE announcement.", image: 'assets/img/doe_logo.png', url: 'doe-ai-energy-report'}
+  - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
   - {title: 'RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension', publication: 'arXiv', date: '2024-07-14', summary: 'This preprint explores the use of Retrieval-Augmented Generation and long context models for environmental document analysis.', image: 'assets/img/arxiv-logo.png', url: 'arxiv'}
+
 
 publications:
   - {title: 'A generative AI approach to pricing mechanisms and consumer behavior in the electric vehicle charging market', publication: 'AAAI Symposium Series', date: '2024-03-15', summary: 'This paper presents an approach to understanding EV charging market dynamics using generative AI techniques.', image: 'assets/img/aaai-logo.png', url: 'aaai'}
