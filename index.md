@@ -4,7 +4,7 @@ title: "Home"
 ---
 Sarthak is a Staff Scientist at the U.S. Department of Energy's Pacific Northwest National Laboratory (PNNL), where he develops artificial intelligence solutions to enhance grid resilience and support critical energy infrastructure.
 
-At PNNL, Sarthak collaborates with a distinguished network of U.S. Department of Energy offices, including Advanced Research Projects Agency–Energy (ARPA-E), Grid Deployment Office (GDO), Office of Energy Efficiency and Renewable Energy (EERE), and Office of Policy. His research spans AI-driven grid resilience tools, energy infrastructure permitting solutions, and critical energy supply chain decision support systems.
+At PNNL, Sarthak collaborates with a distinguished network of U.S. Department of Energy offices, including Advanced Research Projects Agency–Energy (ARPA-E), Office of Energy Efficiency and Renewable Energy (EERE), Grid Deployment Office (GDO), and Office of Policy. His research spans AI-driven grid resilience tools, energy infrastructure permitting solutions, and critical energy supply chain decision support systems.
 
 Sarthak serves as a key contributor to PermitAI, a generative AI initiative to accelerate federal permitting for energy infrastructure projects. The project has received national recognition, including several references in White House briefings following the Executive Order on AI and Department of Energy announcements highlighting efforts to advance U.S. leadership in artificial intelligence.
 
