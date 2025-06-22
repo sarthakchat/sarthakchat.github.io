@@ -2,8 +2,19 @@
 layout: home
 title: "Home"
 ---
-
 Sarthak is a Staff Scientist at the U.S. Department of Energy's Pacific Northwest National Laboratory (PNNL), where he develops artificial intelligence solutions to enhance grid resilience and support critical energy infrastructure.
+
+At PNNL, Sarthak collaborates with a distinguished network of U.S. Department of Energy offices, including Advanced Research Projects Agency–Energy (ARPA-E), Grid Deployment Office (GDO), Office of Policy (OP), Office of Science (OS), and Office of Energy Efficiency and Renewable Energy (EERE). His research portfolio centers on developing AI-driven tools for grid resilience, streamlining energy infrastructure permitting, and supporting critical energy supply chain decision-making.
+
+Sarthak serves as a key contributor to PermitAI, a generative AI initiative designed to streamline permitting processes for energy infrastructure projects. The project has received national recognition, including several references in White House briefings following the Executive Order on AI and Department of Energy announcements highlighting efforts to advance U.S. leadership in artificial intelligence.
+
+Prior to joining PNNL, Sarthak conducted research at Georgia Tech focused on electric vehicle charging infrastructure and energy policy. His research on EV reliability and pricing transparency has been featured by Harvard Business School's Institute for Business in Global Society (BiGS), Microsoft, The New York Times, and other prominent outlets.
+
+He combines expertise in machine learning with specialized knowledge in energy systems to deliver practical, high-impact solutions for modernizing the nation's critical energy infrastructure.
+
+
+
+<!-- Sarthak is a Staff Scientist at the U.S. Department of Energy's Pacific Northwest National Laboratory (PNNL), where he develops artificial intelligence solutions to enhance grid resilience and support critical energy infrastructure.
 
 At PNNL, Sarthak collaborates with a distinguished network of U.S. Department of Energy offices, including the Grid Deployment Office, Office of Policy, Office of Science, Advanced Research Projects Agency–Energy (ARPA-E), Building Technologies Office (BTO), and the Office of Energy Efficiency and Renewable Energy (EERE). His projects span AI-driven tools for grid resilience, energy infrastructure permitting, and decision support for energy supply chain resilience.
 
@@ -11,7 +22,7 @@ Sarthak contributes to PermitAI, a Gen-AI initiative aimed at streamlining permi
 
 Before joining PNNL, Sarthak conducted research at Georgia Tech on electric vehicle charging infrastructure and energy policy. His work on EV reliability and pricing transparency have been featured by the Harvard Business School's Institute for Business in Global Society (BiGS), Microsoft, The New York Times, and other influential outlets.
 
-He integrates expertise in machine learning with domain knowledge in energy systems to deliver practical, impactful solutions for modernizing the critical energy infrastructure.
+He integrates expertise in machine learning with domain knowledge in energy systems to deliver practical, impactful solutions for modernizing the critical energy infrastructure. -->
 
 <!-- ---
 layout: home

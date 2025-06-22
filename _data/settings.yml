@@ -42,41 +42,41 @@ menu:
 #     image: 'assets/img/pnnl_logo.png'
 #     url: 'ceq-policyai-report'
 
-projects:
-  - title: 'Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GoDEEEP)'
-    publication: 'Pacific Northwest National Lab Initiative'
-    date: '2024 - 2024'
-    summary: "<ul><li>Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data.</li><li>Created solution that reduces technical barriers to grid data analysis.</li><li>Filed invention disclosure for Grid Copilot for potential commercialization in the energy sector.</li></ul>"
-    image: 'assets/img/godeeep_logo.png'
-    url: 'ceq-policyai-report'
+# projects:
+#   - title: 'Grid Operations, Decarbonization, Environmental and Energy Equity Platform (GoDEEEP)'
+#     publication: 'Pacific Northwest National Lab Initiative'
+#     date: '2024 - 2024'
+#     summary: "<ul><li>Developed Grid Copilot, an AI-based tool for interactive analysis and visualization of power grid data.</li><li>Created solution that reduces technical barriers to grid data analysis.</li><li>Filed invention disclosure for Grid Copilot for potential commercialization in the energy sector.</li></ul>"
+#     image: 'assets/img/godeeep_logo.png'
+#     url: 'ceq-policyai-report'
 
-  - title: 'PolicyAI: Enhancing Environmental Permitting Processes'
-    publication: 'DoE Office of Policy'
-    date: '2024 - Present'
-    summary: "<ul><li>Worked on Retrieval-augmented Generation (RAG) models for environmental permitting document analysis.</li><li>Developed domain-specific embedding model for environmental permitting to enhance information retrieval accuracy.</li><li>Project recognized in White House briefing on AI actions and DOE announcement for streamlining permitting processes.</li></ul>"
-    image: 'assets/img/doe_logo.png'
-    url: 'ceq-policyai-report'
+#   - title: 'PolicyAI: Enhancing Environmental Permitting Processes'
+#     publication: 'DoE Office of Policy'
+#     date: '2024 - Present'
+#     summary: "<ul><li>Worked on Retrieval-augmented Generation (RAG) models for environmental permitting document analysis.</li><li>Developed domain-specific embedding model for environmental permitting to enhance information retrieval accuracy.</li><li>Project recognized in White House briefing on AI actions and DOE announcement for streamlining permitting processes.</li></ul>"
+#     image: 'assets/img/doe_logo.png'
+#     url: 'ceq-policyai-report'
 
-  - title: 'Integrated Intermodal Freight Modeling for Efficiency and Resiliency'
-    publication: 'Advanced Research Projects Agency–Energy'
-    date: '2023 - 2024'
-    summary: "<ul><li>Contributed to a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.</li><li>Analyzed sustainable fuel impacts on freight systems to enhance transportation sustainability.</li></ul>"
-    image: 'assets/img/arpae_logo.png'
-    url: 'ceq-policyai-report'
+#   - title: 'Integrated Intermodal Freight Modeling for Efficiency and Resiliency'
+#     publication: 'Advanced Research Projects Agency–Energy'
+#     date: '2023 - 2024'
+#     summary: "<ul><li>Contributed to a decision-support tool integrating climate modeling, multi-objective analysis, and transportation planning.</li><li>Analyzed sustainable fuel impacts on freight systems to enhance transportation sustainability.</li></ul>"
+#     image: 'assets/img/arpae_logo.png'
+#     url: 'ceq-policyai-report'
 
-  - title: 'Decarbonizing Energy through Collaborative Analysis of Routes and Benefits (DECARB)'
-    publication: 'DoE Office of Energy Efficiency and Renewable Energy'
-    date: '2023 - 2024'
-    summary: "<ul><li>Analyzed electrical infrastructure investments needed for national decarbonization goals.</li><li>Provided insights for strategic decision-making across energy supply and demand sectors.</li></ul>"
-    image: 'assets/img/doe-eere-logo.png'
-    url: 'ceq-policyai-report' 
+#   - title: 'Decarbonizing Energy through Collaborative Analysis of Routes and Benefits (DECARB)'
+#     publication: 'DoE Office of Energy Efficiency and Renewable Energy'
+#     date: '2023 - 2024'
+#     summary: "<ul><li>Analyzed electrical infrastructure investments needed for national decarbonization goals.</li><li>Provided insights for strategic decision-making across energy supply and demand sectors.</li></ul>"
+#     image: 'assets/img/doe-eere-logo.png'
+#     url: 'ceq-policyai-report' 
 
-  - title: 'Intelligent Power System Data Management Platform'
-    publication: 'Pacific Northwest National Lab Initiative'
-    date: '2024 - 2024'
-    summary: "<ul><li>Developed a customized multi-task LLM for power system data analytics and visualization.</li><li>Created solution that reduces modeling preparation time significantly.</li></ul>"
-    image: 'assets/img/pnnl_logo.png'
-    url: 'ceq-policyai-report'
+#   - title: 'Intelligent Power System Data Management Platform'
+#     publication: 'Pacific Northwest National Lab Initiative'
+#     date: '2024 - 2024'
+#     summary: "<ul><li>Developed a customized multi-task LLM for power system data analytics and visualization.</li><li>Created solution that reduces modeling preparation time significantly.</li></ul>"
+#     image: 'assets/img/pnnl_logo.png'
+#     url: 'ceq-policyai-report'
 
 
 courses:
