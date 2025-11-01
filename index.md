@@ -2,13 +2,15 @@
 layout: home
 title: "Home"
 ---
-Sarthak is a Staff Scientist at the U.S. Department of Energy's **Pacific Northwest National Laboratory (PNNL)**, where he develops artificial intelligence solutions to enhance grid resilience and support critical energy infrastructure.
+Sarthak is a Senior R&D Staff at the U.S. Department of Energy's **Pacific Northwest National Laboratory (PNNL)**, where he develops artificial intelligence solutions to enhance grid resilience and support critical energy infrastructure.
 
 At PNNL, Sarthak collaborates with a distinguished network of U.S. Department of Energy offices, including Advanced Research Projects Agency–Energy (ARPA-E), Office of Energy Efficiency and Renewable Energy (EERE), Grid Deployment Office (GDO), and Office of Policy. His research spans AI-driven grid resilience tools, energy infrastructure permitting solutions, and critical energy supply chain decision support systems. His work includes contributions to **Presidential Executive Order initiatives** on grid modernization and the **Federal Resource Adequacy Report** on assessing U.S. grid reliability and security.
 
 Sarthak serves as a key contributor to **PermitAI**, a generative AI initiative to accelerate federal permitting for energy infrastructure projects. The project has received national recognition, including several references in **White House briefings** following the Executive Order on AI and Department of Energy announcements highlighting efforts to advance U.S. leadership in artificial intelligence.
 
-Prior to joining PNNL, Sarthak conducted research at Georgia Tech focused on electric vehicle charging infrastructure and energy policy. His research on EV reliability and pricing transparency has been featured by *Harvard Business School's Institute for Business in Global Society (BiGS)*, *Microsoft*, *The New York Times*, and other prominent outlets.
+Sarthak serves as a core member of the **IEEE Power & Energy Society Task Force on Foundation Models**, where he contributes to advancing thought leadership on the application of foundation models in power system analysis, operations, and planning. 
+
+Prior to joining PNNL, Sarthak conducted research at Georgia Tech on optimization of electric vehicle charging infrastructure and pricing markets. His research on charging infrastructure and pricing mechanisms has been featured by the *Association for the Advancement of Artificial Intelligence (AAAI)*, *Harvard Business School*, *Microsoft*, *The New York Times*, and other prominent outlets.
 
 He combines expertise in machine learning with domain knowledge in energy systems to deliver practical, high-impact solutions for modernizing the nation's critical energy infrastructure.
 
