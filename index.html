@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarthak Chaturvedi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/home.png">
+    <link rel="shortcut icon" href="assets/img/home.png">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTFCT9JKWV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YTFCT9JKWV');
+    </script>
+
+    <style>
+        :root {
+            --navy: #0a2240;
+            --gold: #b8860b;
+            --gold-light: #d4a84b;
+            --text: #1a1a1a;
+            --text-secondary: #4a5568;
+            --border: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text);
+            background: #ffffff;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        header {
+            background: var(--navy);
+            padding: 16px 0;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+        }
+
+        nav a {
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: var(--gold-light);
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .hero-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 72px 32px;
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 56px;
+            align-items: center;
+        }
+
+        .hero-photo {
+            position: relative;
+        }
+
+        .hero-photo::before {
+            content: '';
+            position: absolute;
+            top: -8px;
+            left: -8px;
+            right: 8px;
+            bottom: 8px;
+            border: 2px solid var(--gold);
+            z-index: 0;
+        }
+
+        .hero-photo img {
+            position: relative;
+            width: 220px;
+            height: 275px;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .hero-info {
+            padding-left: 16px;
+            border-left: 3px solid var(--gold);
+        }
+
+        .hero-info h1 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 42px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 8px;
+            letter-spacing: -0.01em;
+        }
+
+        .hero-title {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+
+        .hero-affiliation {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .hero-affiliation a {
+            color: var(--navy);
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .hero-affiliation a:hover {
+            color: var(--gold);
+        }
+
+        .hero-tagline {
+            font-size: 13px;
+            color: var(--gold);
+            margin-top: 12px;
+            letter-spacing: 0.02em;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 72px 32px;
+        }
+
+        .section-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 32px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, var(--gold), transparent);
+        }
+
+        .bio {
+            columns: 1;
+            max-width: 800px;
+        }
+
+        .bio p {
+            font-size: 16px;
+            line-height: 1.85;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            text-align: justify;
+        }
+
+        .bio p:first-child::first-letter {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 56px;
+            font-weight: 600;
+            float: left;
+            line-height: 1;
+            margin-right: 12px;
+            margin-top: 4px;
+            color: var(--navy);
+        }
+
+        .bio p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Featured Work */
+        .featured {
+            margin-top: 72px;
+            padding-top: 48px;
+            border-top: 1px solid var(--border);
+        }
+
+        .featured-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+        }
+
+        .featured-item {
+            padding: 24px;
+            background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
+            border-left: 3px solid var(--gold);
+            transition: transform 0.2s ease;
+        }
+
+        .featured-item:hover {
+            transform: translateX(4px);
+        }
+
+        .featured-label {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+        .featured-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .featured-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .featured-title a:hover {
+            color: var(--gold);
+        }
+
+        .featured-desc {
+            font-size: 14px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .featured-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Upcoming Preview */
+        .upcoming {
+            margin-top: 72px;
+            padding-top: 48px;
+            border-top: 1px solid var(--border);
+        }
+
+        .upcoming-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .upcoming-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .upcoming-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 16px 20px;
+            background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
+            border-left: 3px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .upcoming-item:hover {
+            border-left-color: var(--gold);
+            transform: translateX(4px);
+        }
+
+        .upcoming-date {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gold);
+            min-width: 80px;
+            text-transform: uppercase;
+        }
+
+        .upcoming-content {
+            flex: 1;
+        }
+
+        .upcoming-type {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 2px;
+        }
+
+        .upcoming-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--navy);
+        }
+
+        .view-all {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--gold);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .view-all:hover {
+            color: var(--navy);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy);
+            padding: 48px 0;
+            margin-top: 48px;
+            border-top: 3px solid var(--gold);
+        }
+
+        .footer-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-info {
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+        }
+
+        .footer-info strong {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-links a {
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--gold-light);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+
+            nav {
+                gap: 20px;
+            }
+
+            .hero-inner {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 48px 24px;
+                gap: 40px;
+            }
+
+            .hero-photo {
+                margin: 0 auto;
+            }
+
+            .hero-photo::before {
+                top: -6px;
+                left: -6px;
+                right: 6px;
+                bottom: 6px;
+            }
+
+            .hero-photo img {
+                width: 180px;
+                height: 225px;
+            }
+
+            .hero-info {
+                padding-left: 0;
+                border-left: none;
+                padding-top: 24px;
+                border-top: 3px solid var(--gold);
+            }
+
+            .hero-info h1 {
+                font-size: 32px;
+            }
+
+            main {
+                padding: 48px 24px;
+            }
+
+            .bio p {
+                text-align: left;
+            }
+
+            .bio p:first-child::first-letter {
+                font-size: 48px;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="site-title">Sarthak Chaturvedi</a>
+            <nav>
+                <a href="index.html">Biography</a>
+                <a href="publications.html">Publications</a>
+                <a href="activity.html">Activity</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-photo">
+                <img src="assets/img/home.jpg" alt="Sarthak Chaturvedi">
+            </div>
+            <div class="hero-info">
+                <h1>Sarthak Chaturvedi</h1>
+                <div class="hero-title">Senior R&D Staff</div>
+                <div class="hero-affiliation"><a href="https://www.pnnl.gov" target="_blank">Pacific Northwest National Laboratory</a><br>U.S. Department of Energy</div>
+                <div class="hero-tagline">Grid Resilience · AI for Energy · Infrastructure Permitting · Agentic AI</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biography -->
+    <main>
+        <h2 class="section-title">Biography</h2>
+        <div class="bio">
+            <p>
+                Sarthak is a Senior R&D Staff at the U.S. Department of Energy's Pacific Northwest National Laboratory (PNNL), where he develops agentic AI-driven tools for grid resilience, operational efficiency, and energy infrastructure permitting.
+            </p>
+            <p>
+                At PNNL, Sarthak collaborates with a distinguished network of U.S. Department of Energy offices, including Advanced Research Projects Agency–Energy, Office of Energy Efficiency and Renewable Energy, Grid Deployment Office, and Office of Policy. His work includes contributions to Presidential Executive Order initiatives on grid modernization and the Federal Resource Adequacy Report on assessing U.S. grid reliability and security. He developed GridCoPilot, among the first LLM-based frameworks for long-term grid planning.
+            </p>
+            <p>
+                Sarthak serves as a key contributor to PermitAI, a generative AI initiative to accelerate federal permitting for energy infrastructure. The project has received national recognition, including references in White House briefings, America's AI Action Plan, and Department of Energy announcements highlighting efforts to advance U.S. leadership in artificial intelligence.
+            </p>
+            <p>
+                Sarthak serves as a core member of the IEEE Power & Energy Society Task Force on Foundation Models, where he contributes to advancing thought leadership on the application of foundation models in power system analysis, operations, and planning.
+            </p>
+            <p>
+                Prior to joining PNNL, Sarthak conducted research at Georgia Tech on optimization of electric vehicle charging infrastructure and pricing markets. His research on charging infrastructure and pricing mechanisms has been featured by the Association for the Advancement of Artificial Intelligence (AAAI), Harvard Business School, Microsoft, The New York Times, and other prominent outlets.
+            </p>
+        </div>
+
+        <!-- Featured Work -->
+        <section class="featured">
+            <h2 class="section-title">Selected Contributions</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <div class="featured-label">IEEE PES General Meeting 2025</div>
+                    <div class="featured-title">
+                        <a href="https://ieeexplore.ieee.org/document/11225574">Grid CoPilot: LLM Framework for Long-term Planning</a>
+                    </div>
+                    <div class="featured-desc">Agentic AI framework enabling utilities to analyze and visualize complex multi-year transmission planning scenarios.</div>
+                </div>
+
+                <div class="featured-item">
+                    <div class="featured-label">U.S. Department of Energy</div>
+                    <div class="featured-title">
+                        <a href="https://www.energy.gov/sites/default/files/2024-04/AI%20EO%20Report%20Section%205.2g%28i%29_043024.pdf">AI for Energy: Opportunities for a Modern Grid</a>
+                    </div>
+                    <div class="featured-desc">Contributing author to DOE's flagship report on AI applications for grid modernization and clean energy deployment.</div>
+                </div>
+
+                <div class="featured-item">
+                    <div class="featured-label">Presidential Executive Order</div>
+                    <div class="featured-title">
+                        <a href="https://www.energy.gov/topics/reliability">Resource Adequacy Report: U.S. Grid Reliability and Security</a>
+                    </div>
+                    <div class="featured-desc">Contributed to DOE efforts analyzing the U.S. power system's ability to support new load growth and strengthen grid reliability.</div>
+                </div>
+
+                <div class="featured-item">
+                    <div class="featured-label">AAAI · Featured by Harvard, NYT, Microsoft</div>
+                    <div class="featured-title">
+                        <a href="https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649">EV Charging Infrastructure & Market Research</a>
+                    </div>
+                    <div class="featured-desc">Doctoral research on pricing mechanisms and consumer behavior in electric vehicle charging markets.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Activity -->
+        <section class="upcoming">
+            <div class="upcoming-header">
+                <h2 class="section-title">Recent Activity</h2>
+                <a href="activity.html" class="view-all">View all</a>
+            </div>
+            <div class="upcoming-list">
+                <div class="upcoming-item">
+                    <div class="upcoming-date">Dec 2025</div>
+                    <div class="upcoming-content">
+                        <div class="upcoming-type">Hosted</div>
+                        <div class="upcoming-title">Power for AI/Computing, and AI for Power · Dr. Le Xie (Harvard)</div>
+                    </div>
+                </div>
+                <div class="upcoming-item">
+                    <div class="upcoming-date">Oct 2025</div>
+                    <div class="upcoming-content">
+                        <div class="upcoming-type">Hosted</div>
+                        <div class="upcoming-title">A Foundation Model for the Electric Grid · Dr. Hendrik Hamann (Former CSO, IBM)</div>
+                    </div>
+                </div>
+                <div class="upcoming-item">
+                    <div class="upcoming-date">Sep 2025</div>
+                    <div class="upcoming-content">
+                        <div class="upcoming-type">Invited</div>
+                        <div class="upcoming-title">The Next Revolution of AI: Impact Summit · Stanford HAI</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-info">
+                <strong>Pacific Northwest National Laboratory</strong>
+                U.S. Department of Energy
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/sarthak-chaturvedi/">LinkedIn</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

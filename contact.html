@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact · Sarthak Chaturvedi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/home.png">
+    <link rel="shortcut icon" href="assets/img/home.png">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTFCT9JKWV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YTFCT9JKWV');
+    </script>
+
+    <style>
+        :root {
+            --navy: #0a2240;
+            --gold: #b8860b;
+            --gold-light: #d4a84b;
+            --text: #1a1a1a;
+            --text-secondary: #4a5568;
+            --border: #e2e8f0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text);
+            background: #ffffff;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        header {
+            background: var(--navy);
+            padding: 16px 0;
+            border-bottom: 3px solid var(--gold);
+        }
+
+        .header-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 22px;
+            font-weight: 600;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: 0.02em;
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+        }
+
+        nav a {
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: var(--gold-light);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 72px 32px;
+        }
+
+        .page-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 48px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .page-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, var(--gold), transparent);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+        }
+
+        .contact-section h3 {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--navy);
+            margin-bottom: 20px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--gold);
+            display: inline-block;
+        }
+
+        .contact-item {
+            margin-bottom: 16px;
+        }
+
+        .contact-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 4px;
+        }
+
+        .contact-value {
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        .contact-links {
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        .contact-links a {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--navy);
+            text-decoration: none;
+            margin-right: 24px;
+            transition: color 0.2s ease;
+        }
+
+        .contact-links a:hover {
+            color: var(--gold);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy);
+            padding: 48px 0;
+            margin-top: 72px;
+            border-top: 3px solid var(--gold);
+        }
+
+        .footer-inner {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-info {
+            color: rgba(255,255,255,0.7);
+            font-size: 14px;
+        }
+
+        .footer-info strong {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-links a {
+            font-size: 13px;
+            font-weight: 500;
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--gold-light);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner {
+                flex-direction: column;
+                gap: 16px;
+                text-align: center;
+            }
+
+            nav {
+                gap: 20px;
+            }
+
+            main {
+                padding: 48px 24px;
+            }
+
+            .page-title {
+                font-size: 28px;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 48px;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                gap: 24px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-inner">
+            <a href="index.html" class="site-title">Sarthak Chaturvedi</a>
+            <nav>
+                <a href="index.html">Biography</a>
+                <a href="publications.html">Publications</a>
+                <a href="activity.html">Activity</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1 class="page-title">Contact</h1>
+
+        <div class="contact-grid">
+            <div class="contact-section">
+                <h3>Position</h3>
+                <div class="contact-item">
+                    <div class="contact-label">Title</div>
+                    <div class="contact-value">Senior R&D Staff</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-label">Department</div>
+                    <div class="contact-value">Energy & Environment Directorate</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-label">Laboratory</div>
+                    <div class="contact-value">Pacific Northwest National Laboratory</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-label">Agency</div>
+                    <div class="contact-value">U.S. Department of Energy</div>
+                </div>
+            </div>
+
+            <div class="contact-section">
+                <h3>Location</h3>
+                <div class="contact-item">
+                    <div class="contact-label">Office</div>
+                    <div class="contact-value">PNNL Seattle Research Center</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-label">Address</div>
+                    <div class="contact-value">1100 Dexter Ave N, Seattle, WA</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-label">Email</div>
+                    <div class="contact-value">[firstname].[lastname]@pnnl.gov</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-label">LinkedIn</div>
+                    <div class="contact-value"><a href="https://www.linkedin.com/in/sarthak-chaturvedi/" style="color: var(--navy); text-decoration: none;">linkedin.com/in/sarthak-chaturvedi</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-info">
+                <strong>Pacific Northwest National Laboratory</strong>
+                U.S. Department of Energy
+            </div>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/sarthak-chaturvedi/">LinkedIn</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -4,3 +4,8 @@
 .sass-cache
 _site
 Gemfile.lock
+
+# Personal files - do not commit
+Profile.pdf
+README-NEW-DESIGN.md
+*.pdf
