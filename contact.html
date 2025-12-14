@@ -54,6 +54,9 @@
             color: var(--text);
             background: #ffffff;
             -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         /* Header */
@@ -100,91 +103,154 @@
             color: var(--gold-light);
         }
 
-        /* Main Content */
-        main {
+        /* Contact Hero */
+        .contact-hero {
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .contact-hero-inner {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 72px 32px;
+            padding: 56px 32px;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 48px;
+            align-items: start;
         }
 
-        .page-title {
+        .contact-photo {
+            position: relative;
+        }
+
+        .contact-photo::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            right: 6px;
+            bottom: 6px;
+            border: 2px solid var(--gold);
+            z-index: 0;
+        }
+
+        .contact-photo img {
+            position: relative;
+            width: 280px;
+            height: 190px;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .contact-info {
+            padding-left: 16px;
+            border-left: 3px solid var(--gold);
+        }
+
+        .contact-info h1 {
             font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 600;
             color: var(--navy);
-            margin-bottom: 48px;
-            display: flex;
-            align-items: center;
-            gap: 16px;
+            margin-bottom: 20px;
         }
 
-        .page-title::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: linear-gradient(to right, var(--gold), transparent);
-        }
-
-        .contact-grid {
+        .contact-sections {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 64px;
+            gap: 32px;
+            margin-bottom: 16px;
+        }
+
+        .contact-section {
+            margin-bottom: 0;
         }
 
         .contact-section h3 {
             font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 600;
             color: var(--navy);
-            margin-bottom: 20px;
-            padding-bottom: 8px;
+            margin-bottom: 8px;
+            padding-bottom: 4px;
             border-bottom: 2px solid var(--gold);
             display: inline-block;
         }
 
         .contact-item {
-            margin-bottom: 16px;
-        }
-
-        .contact-label {
-            font-size: 12px;
-            font-weight: 600;
-            color: var(--gold);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }
 
         .contact-value {
-            font-size: 16px;
-            color: var(--text-secondary);
-        }
-
-        .contact-links {
-            margin-top: 32px;
-            padding-top: 24px;
-            border-top: 1px solid var(--border);
-        }
-
-        .contact-links a {
-            display: inline-block;
             font-size: 14px;
-            font-weight: 500;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+
+        .contact-value a {
             color: var(--navy);
             text-decoration: none;
-            margin-right: 24px;
             transition: color 0.2s ease;
         }
 
-        .contact-links a:hover {
+        .contact-value a:hover {
             color: var(--gold);
+        }
+
+        .book-meeting-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gold);
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 500;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            margin-top: 12px;
+        }
+
+        .book-meeting-btn:hover {
+            background: var(--gold-light);
+            transform: translateY(-1px);
+        }
+
+        /* Quote Section */
+        .quote-section {
+            background: #ffffff;
+            padding: 48px 32px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        .quote-inner {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .quote-text {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 17px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+
+        .quote-author {
+            font-size: 13px;
+            color: var(--gold);
+            letter-spacing: 0.02em;
         }
 
         /* Footer */
         footer {
             background: var(--navy);
-            padding: 48px 0;
-            margin-top: 72px;
+            padding: 32px 0;
             border-top: 3px solid var(--gold);
         }
 
@@ -198,13 +264,13 @@
         }
 
         .footer-info {
-            color: rgba(255,255,255,0.7);
+            color: var(--gold-light);
             font-size: 14px;
         }
 
         .footer-info strong {
             font-family: 'Cormorant Garamond', Georgia, serif;
-            color: #ffffff;
+            color: var(--gold-light);
             font-size: 18px;
             font-weight: 600;
             display: block;
@@ -219,7 +285,7 @@
         .footer-links a {
             font-size: 13px;
             font-weight: 500;
-            color: rgba(255,255,255,0.7);
+            color: var(--gold-light);
             text-decoration: none;
             letter-spacing: 0.03em;
             text-transform: uppercase;
@@ -227,7 +293,7 @@
         }
 
         .footer-links a:hover {
-            color: var(--gold-light);
+            color: #ffffff;
         }
 
         /* Responsive */
@@ -242,17 +308,44 @@
                 gap: 20px;
             }
 
-            main {
+            .contact-hero-inner {
+                grid-template-columns: 1fr;
+                text-align: center;
                 padding: 48px 24px;
+                gap: 40px;
             }
 
-            .page-title {
+            .contact-photo {
+                margin: 0 auto;
+                max-width: 280px;
+            }
+
+            .contact-photo::before {
+                top: -6px;
+                left: -6px;
+                right: 6px;
+                bottom: 6px;
+            }
+
+            .contact-photo img {
+                width: 100%;
+                height: 180px;
+            }
+
+            .contact-info {
+                padding-left: 0;
+                border-left: none;
+                padding-top: 24px;
+                border-top: 3px solid var(--gold);
+            }
+
+            .contact-info h1 {
                 font-size: 28px;
             }
 
-            .contact-grid {
+            .contact-sections {
                 grid-template-columns: 1fr;
-                gap: 48px;
+                gap: 24px;
             }
 
             .footer-inner {
@@ -278,51 +371,62 @@
     </header>
 
     <!-- Main Content -->
-    <main>
-        <h1 class="page-title">Contact</h1>
-
-        <div class="contact-grid">
-            <div class="contact-section">
-                <h3>Position</h3>
-                <div class="contact-item">
-                    <div class="contact-label">Title</div>
-                    <div class="contact-value">Senior R&D Staff</div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-label">Department</div>
-                    <div class="contact-value">Energy & Environment Directorate</div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-label">Laboratory</div>
-                    <div class="contact-value">Pacific Northwest National Laboratory</div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-label">Agency</div>
-                    <div class="contact-value">U.S. Department of Energy</div>
-                </div>
+    <section class="contact-hero">
+        <div class="contact-hero-inner">
+            <div class="contact-photo">
+                <img src="assets/img/contact.jpg" alt="Pacific Northwest National Laboratory building entrance with PNNL signage">
             </div>
+            <div class="contact-info">
+                <h1>Contact</h1>
 
-            <div class="contact-section">
-                <h3>Location</h3>
-                <div class="contact-item">
-                    <div class="contact-label">Office</div>
-                    <div class="contact-value">PNNL Seattle Research Center</div>
+                <div class="contact-sections">
+                    <div class="contact-section">
+                        <h3>Position</h3>
+                        <div class="contact-item">
+                            <div class="contact-value">Senior R&D Staff</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-value">Energy & Environment Directorate</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-value">Pacific Northwest National Laboratory</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-value">U.S. Department of Energy</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-section">
+                        <h3>Location</h3>
+                        <div class="contact-item">
+                            <div class="contact-value">PNNL Seattle Research Center</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-value">1100 Dexter Ave N, Seattle, WA</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-value">[firstname].[lastname]@pnnl.gov</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-value"><a href="https://www.linkedin.com/in/sarthak-chaturvedi/">linkedin.com/in/sarthak-chaturvedi</a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <div class="contact-label">Address</div>
-                    <div class="contact-value">1100 Dexter Ave N, Seattle, WA</div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-label">Email</div>
-                    <div class="contact-value">[firstname].[lastname]@pnnl.gov</div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-label">LinkedIn</div>
-                    <div class="contact-value"><a href="https://www.linkedin.com/in/sarthak-chaturvedi/" style="color: var(--navy); text-decoration: none;">linkedin.com/in/sarthak-chaturvedi</a></div>
-                </div>
+
+                <a href="https://outlook.office.com/bookwithme/user/0bdae3960ce34b07aa50eeaf08606280@pnnl.gov/meetingtype/kasVaAqyckW_TES2ibzpmQ2?anonymous&ismsaljsauthenabled&ep=mlink" class="book-meeting-btn" target="_blank">Book a Meeting</a>
             </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="quote-inner">
+            <div class="quote-text">
+                "The supreme quality for leadership is unquestionably integrity. Without it, no real success is possible, no matter whether it is on a section gang, a football field, in an army, or in an office."
+            </div>
+            <div class="quote-author">— Dwight D. Eisenhower</div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
