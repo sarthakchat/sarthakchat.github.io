@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications | Sarthak Chaturvedi</title>
-    <meta name="description" content="Publications by Sarthak Chaturvedi - research in AI for energy, grid resilience, LLMs for power systems, and electric vehicle charging infrastructure.">
-    <link rel="canonical" href="https://sarthakchat.github.io/publications.html">
+    <title>Blog | Sarthak Chaturvedi</title>
+    <meta name="description" content="Thoughts on risk, technology, energy, and career - writings by Sarthak Chaturvedi.">
+    <link rel="canonical" href="https://sarthakchat.github.io/blog.html">
 
     <!-- Open Graph / LinkedIn -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sarthakchat.github.io/publications.html">
-    <meta property="og:title" content="Publications | Sarthak Chaturvedi">
-    <meta property="og:description" content="Research publications in AI for energy, grid resilience, and power systems."">
+    <meta property="og:url" content="https://sarthakchat.github.io/blog.html">
+    <meta property="og:title" content="Blog | Sarthak Chaturvedi">
+    <meta property="og:description" content="Thoughts on risk, technology, energy, and career.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,6 +54,13 @@
             color: var(--text);
             background: #ffffff;
             -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
         }
 
         /* Header */
@@ -107,12 +114,18 @@
             padding: 72px 32px;
         }
 
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 48px;
+        }
+
         .page-title {
             font-family: 'Cormorant Garamond', Georgia, serif;
             font-size: 36px;
             font-weight: 600;
             color: var(--navy);
-            margin-bottom: 48px;
             display: flex;
             align-items: center;
             gap: 16px;
@@ -120,53 +133,51 @@
 
         .page-title::after {
             content: '';
-            flex: 1;
+            width: 120px;
             height: 1px;
             background: linear-gradient(to right, var(--gold), transparent);
         }
 
-        /* Publications */
-        .publication {
-            margin-bottom: 32px;
-            padding-bottom: 32px;
-            border-bottom: 1px solid var(--border);
-            padding-left: 16px;
+        .subscribe-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gold);
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .subscribe-btn:hover {
+            background: var(--gold-light);
+            transform: translateY(-1px);
+        }
+
+        /* Blog Posts */
+        .posts {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .post {
+            padding: 24px;
+            background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
             border-left: 3px solid transparent;
             transition: all 0.2s ease;
         }
 
-        .publication:hover {
+        .post:hover {
             border-left-color: var(--gold);
             transform: translateX(4px);
         }
 
-        .publication:last-child {
-            border-bottom: none;
-            padding-bottom: 0;
-            margin-bottom: 0;
-        }
-
-        .publication-title {
-            font-family: 'Cormorant Garamond', Georgia, serif;
-            font-size: 20px;
-            font-weight: 600;
-            line-height: 1.4;
-            color: var(--navy);
-            margin-bottom: 8px;
-        }
-
-        .publication-title a {
-            color: inherit;
-            text-decoration: none;
-            transition: color 0.2s ease;
-        }
-
-        .publication-title a:hover {
-            color: var(--gold);
-        }
-
-        .publication-venue {
-            font-size: 11px;
+        .post-date {
+            font-size: 12px;
             font-weight: 600;
             letter-spacing: 0.05em;
             text-transform: uppercase;
@@ -174,27 +185,29 @@
             margin-bottom: 8px;
         }
 
-        .publication-authors {
-            font-size: 14px;
-            color: var(--text-secondary);
-        }
-
-        /* Year Sections */
-        .year-section {
-            margin-bottom: 48px;
-        }
-
-        .year-section:last-child {
-            margin-bottom: 0;
-        }
-
-        .year-label {
-            font-size: 12px;
+        .post-title {
+            font-family: 'Cormorant Garamond', Georgia, serif;
+            font-size: 22px;
             font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
+            color: var(--navy);
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .post-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .post-title a:hover {
             color: var(--gold);
-            margin-bottom: 24px;
+        }
+
+        .post-description {
+            font-size: 16px;
+            color: var(--text-secondary);
+            line-height: 1.6;
         }
 
         /* Footer */
@@ -261,6 +274,12 @@
                 padding: 48px 24px;
             }
 
+            .page-header {
+                flex-direction: column;
+                gap: 24px;
+                align-items: flex-start;
+            }
+
             .page-title {
                 font-size: 28px;
             }
@@ -290,87 +309,20 @@
 
     <!-- Main Content -->
     <main>
-        <h1 class="page-title">Publications</h1>
+        <div class="page-header">
+            <h1 class="page-title">Blog</h1>
+            <a href="https://sarthakchaturvedi.substack.com/" class="subscribe-btn" target="_blank">Subscribe on Substack</a>
+        </div>
 
-        <section class="year-section">
-            <div class="year-label">2025</div>
-
-            <div class="publication">
-                <div class="publication-venue">KDD Workshop on Evaluation and Trustworthiness of Agentic and Generative AI Models</div>
-                <div class="publication-title">
-                    <a href="https://arxiv.org/abs/2506.21581">Evaluating the Robustness of Dense Retrievers in Interdisciplinary Domains</a>
-                </div>
-                <div class="publication-authors">Sarthak Chaturvedi, Anurag Acharya, Rounak Meyur, Koby Hayashi, Sai Munikoti, Sameera Horawalavithana</div>
-            </div>
-
-            <div class="publication">
-                <div class="publication-venue">IEEE PES General Meeting</div>
-                <div class="publication-title">
-                    <a href="https://ieeexplore.ieee.org/document/11225574">Grid CoPilot: A Large Language Model Based Framework for Transforming Long-term Planning Analyses</a>
-                </div>
-                <div class="publication-authors">Sarthak Chaturvedi, Sichen Jin, Shrirang Abhyankar, Travis Thurber, Kostas Oikonomou, Nathalie Voisin</div>
-            </div>
-
-            <div class="publication">
-                <div class="publication-venue">KDD Workshop SciSocLLM</div>
-                <div class="publication-title">
-                    <a href="https://openreview.net/forum?id=H4Be1W2k6O">Benchmarking LLMs for Environmental Review and Permitting</a>
-                </div>
-                <div class="publication-authors">Rounak Meyur, Hung D Phan, Koby B Hayashi, Ian Stewart, Shivam Sharma, Sarthak Chaturvedi, et al.</div>
-            </div>
-        </section>
-
-        <section class="year-section">
-            <div class="year-label">2024</div>
-
-            <div class="publication">
-                <div class="publication-venue">arXiv Preprint</div>
-                <div class="publication-title">
-                    <a href="https://arxiv.org/abs/2407.07321">RAG vs. Long Context: Examining Frontier Large Language Models for Environmental Review Document Comprehension</a>
-                </div>
-                <div class="publication-authors">Hung Phan, Anurag Acharya, Sarthak Chaturvedi, Shivam Sharma, et al.</div>
-            </div>
-
-            <div class="publication">
-                <div class="publication-venue">AAAI Symposium Series</div>
-                <div class="publication-title">
-                    <a href="https://ojs.aaai.org/index.php/AAAI-SS/article/view/27649">A Generative AI Approach to Pricing Mechanisms and Consumer Behavior in the Electric Vehicle Charging Market</a>
-                </div>
-                <div class="publication-authors">Sarthak Chaturvedi, Edward W. Chen, Ila P. Sharma, Omar Isaac Asensio</div>
-            </div>
-        </section>
-
-        <section class="year-section">
-            <div class="year-label">2023</div>
-
-            <div class="publication">
-                <div class="publication-venue">APPAM Fall Research Conference</div>
-                <div class="publication-title">
-                    <a href="https://appam.confex.com/appam/2023/meetingapp.cgi/Paper/50198">How Large Language Models Can Help Policymakers Detect Consumer Barriers to Innovation: Insights from EV Charging Business Models</a>
-                </div>
-                <div class="publication-authors">Sarthak Chaturvedi, Edward Chen, Ila P. Sharma, Omar Asensio</div>
-            </div>
-        </section>
-
-        <section class="year-section">
-            <div class="year-label">2022</div>
-
-            <div class="publication">
-                <div class="publication-venue">Conference of Transportation Research Group</div>
-                <div class="publication-title">Data Imputation for Traffic State Estimation and Prediction Using Wi-Fi Sensors</div>
-                <div class="publication-authors">Sarthak Chaturvedi, S Deepak, Dhivya Bharathi, Bhargava Rama Chilukuri</div>
-            </div>
-        </section>
-
-        <section class="year-section">
-            <div class="year-label">2021</div>
-
-            <div class="publication">
-                <div class="publication-venue">COMSNETS</div>
-                <div class="publication-title">Traffic State Estimation using DSRC-Enabled Probe Vehicles</div>
-                <div class="publication-authors">Sarthak Chaturvedi, AbiramiKrishna Ashok, Bhargava Rama Chilukuri</div>
-            </div>
-        </section>
+        <div class="posts">
+            <article class="post">
+                <div class="post-date">October 2025</div>
+                <h2 class="post-title">
+                    <a href="https://sarthakchaturvedi.substack.com/p/asymmetric-bets-are-all-you-need" target="_blank">Asymmetric Bets Are All You Need?</a>
+                </h2>
+                <p class="post-description">A year in Seattle on risk, compounding upside, and fewer what-ifs.</p>
+            </article>
+        </div>
     </main>
 
     <!-- Footer -->
