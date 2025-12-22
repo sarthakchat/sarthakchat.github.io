@@ -97,7 +97,10 @@
 
         <div class="posts">
             <article class="post">
-                <div class="post-date">October 2025</div>
+                <div class="post-meta">
+                    <span class="post-date">October 2025</span>
+                    <span class="post-read-time">5 min read</span>
+                </div>
                 <h2 class="post-title">
                     <a href="https://sarthakchaturvedi.substack.com/p/asymmetric-bets-are-all-you-need" target="_blank">Asymmetric Bets Are All You Need?</a>
                 </h2>
@@ -118,5 +121,17 @@
             </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+    <script>
+        const backToTop = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            backToTop.classList.toggle('visible', window.scrollY > 300);
+        });
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>
