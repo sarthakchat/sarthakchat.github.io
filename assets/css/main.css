@@ -1008,17 +1008,10 @@ footer {
         flex-direction: column;
         gap: 16px;
         text-align: center;
-        padding: 0 16px;
     }
 
     nav {
-        gap: 12px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    nav a {
-        font-size: 12px;
+        gap: 20px;
     }
 
     /* Main */
@@ -1031,7 +1024,6 @@ footer {
         flex-direction: column;
         gap: 24px;
         text-align: center;
-        padding: 0 16px;
     }
 
     /* Page Header */
