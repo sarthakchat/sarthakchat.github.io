@@ -378,6 +378,22 @@ footer {
     letter-spacing: 0.02em;
 }
 
+.hero-link {
+    display: inline-block;
+    margin-top: 16px;
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    transition: color 0.2s ease;
+}
+
+.hero-link:hover {
+    color: var(--gold);
+}
+
 /* Bio Section */
 .bio {
     columns: 1;
@@ -862,20 +878,24 @@ footer {
 }
 
 .contact-section h3 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: 600;
-    color: var(--navy);
-    margin-bottom: 10px;
-    padding-bottom: 4px;
-    border-bottom: 2px solid var(--gold);
-    display: inline-block;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
 }
 
 .contact-value {
-    font-size: 16px;
+    font-size: 15px;
     color: var(--text-secondary);
-    line-height: 1.85;
+    line-height: 1.7;
+}
+
+.contact-value--primary {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--navy);
 }
 
 .contact-buttons {
@@ -987,6 +1007,10 @@ footer {
 
     .hero-info h1 {
         font-size: 32px;
+    }
+
+    .hero-link {
+        margin-left: 0;
     }
 
     /* Bio */
