@@ -26,6 +26,18 @@
     box-sizing: border-box;
 }
 
+/* Page load animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 16px;
@@ -153,6 +165,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 16px;
+    animation: fadeIn 0.6s ease-out both;
 }
 
 .page-title::after {
@@ -312,6 +325,7 @@ footer {
 
 .hero-photo {
     position: relative;
+    animation: fadeIn 0.6s ease-out both;
 }
 
 .hero-photo::before {
@@ -336,6 +350,7 @@ footer {
 .hero-info {
     padding-left: 16px;
     border-left: 3px solid var(--gold);
+    animation: fadeIn 0.6s ease-out 0.15s both;
 }
 
 .hero-info h1 {
@@ -388,6 +403,7 @@ footer {
     text-decoration: none;
     letter-spacing: 0.01em;
     transition: color 0.2s ease;
+    animation: fadeIn 0.6s ease-out 0.3s both;
 }
 
 .hero-link:hover {
@@ -564,6 +580,7 @@ footer {
 
 .year-section {
     margin-bottom: 48px;
+    animation: fadeIn 0.6s ease-out 0.1s both;
 }
 
 .year-section:last-child {
@@ -638,6 +655,7 @@ footer {
 
 .timeline-section {
     margin-bottom: 64px;
+    animation: fadeIn 0.6s ease-out 0.1s both;
 }
 
 .timeline-section:last-child {
@@ -769,6 +787,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    animation: fadeIn 0.6s ease-out 0.1s both;
 }
 
 .post {
@@ -812,7 +831,7 @@ footer {
 }
 
 .post-description {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--text-secondary);
     line-height: 1.6;
 }
@@ -837,6 +856,7 @@ footer {
 
 .contact-info {
     text-align: center;
+    animation: fadeIn 0.6s ease-out both;
 }
 
 .contact-info h1 {
