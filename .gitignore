@@ -9,3 +9,6 @@ Gemfile.lock
 Profile.pdf
 README-NEW-DESIGN.md
 *.pdf
+
+# Playwright / tooling artifacts
+output/
