@@ -574,6 +574,20 @@ footer {
     color: var(--gold);
 }
 
+.upcoming-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--gold);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.upcoming-link:hover {
+    color: var(--navy);
+}
+
 /* ==========================================================================
    5. PAGE-SPECIFIC - Publications
    ========================================================================== */
@@ -931,9 +945,23 @@ footer {
 
 .contact-buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 12px;
     justify-content: center;
     margin-bottom: 32px;
+}
+
+.contact-buttons--stacked {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-buttons-primary,
+.contact-buttons-secondary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
 }
 
 .personal-statement {
@@ -1011,7 +1039,13 @@ footer {
     }
 
     nav {
-        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+    }
+
+    nav a {
+        font-size: 12px;
     }
 
     /* Main */
