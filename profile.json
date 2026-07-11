@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://sarthakchat.github.io/#sarthak-chaturvedi",
+  "name": "Sarthak Chaturvedi",
+  "alternateName": [
+    "Sarthak Chaturvedi PNNL",
+    "Sarthak Chaturvedi Seattle",
+    "Sarthak at PNNL Seattle"
+  ],
+  "url": "https://sarthakchat.github.io/",
+  "mainEntityOfPage": "https://sarthakchat.github.io/",
+  "image": "https://sarthakchat.github.io/assets/img/home.jpg",
+  "jobTitle": "Senior R&D Staff",
+  "description": "Senior R&D Staff at Pacific Northwest National Laboratory's Seattle Research Center building agentic AI systems for energy infrastructure planning, grid resilience, federal permitting, and AI-era load growth.",
+  "disambiguatingDescription": "This profile refers to Sarthak Chaturvedi at Pacific Northwest National Laboratory in Seattle, Washington, working on agentic AI for energy infrastructure, federal permitting, and grid resilience.",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://www.pnnl.gov/#organization",
+    "name": "Pacific Northwest National Laboratory",
+    "url": "https://www.pnnl.gov"
+  },
+  "workLocation": {
+    "@type": "Place",
+    "name": "PNNL Seattle Research Center",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1100 Dexter Ave N",
+      "addressLocality": "Seattle",
+      "addressRegion": "WA",
+      "addressCountry": "US"
+    }
+  },
+  "sameAs": [
+    "https://www.pnnl.gov/people/sarthak-chaturvedi",
+    "https://github.com/sarthakchat",
+    "https://www.linkedin.com/in/sarthak-chaturvedi/",
+    "https://scholar.google.com/citations?user=GYPlHp0AAAAJ&hl=en",
+    "https://sarthakchaturvedi.substack.com/"
+  ],
+  "knowsAbout": [
+    "Agentic AI",
+    "AI for Energy",
+    "Human-AI collaboration",
+    "Large language models",
+    "Foundation models",
+    "Grid resilience",
+    "Power systems",
+    "Grid reliability",
+    "Resource adequacy",
+    "Transmission planning",
+    "Energy infrastructure",
+    "Federal permitting",
+    "NEPA reviews",
+    "Environmental review workflows",
+    "Electric vehicle charging"
+  ],
+  "keyArtifacts": [
+    {
+      "name": "DraftNEPABench: A Benchmark for Drafting NEPA Document Sections with Coding Agents",
+      "type": "ScholarlyArticle",
+      "url": "https://www.pnnl.gov/sites/default/files/media/file/PREPRINT_PNNL_PolicyAI_DraftNEPABench_OpenAI.pdf",
+      "topic": "Coding agents for drafting environmental review documents"
+    },
+    {
+      "name": "PNNL-OpenAI collaboration on DraftNEPABench",
+      "type": "WebPage",
+      "url": "https://openai.com/index/pacific-northwest-national-laboratory/",
+      "topic": "Benchmarking AI coding agents for environmental impact statements"
+    },
+    {
+      "name": "NEPA-MCP Toolkit and AI Drafting Assistant for NEPA Reviews",
+      "type": "CreativeWork",
+      "url": "https://github.com/sarthakchat/naep-2026-slides/blob/main/WriteNEPA-NAEP-v5.pdf",
+      "topic": "Human-AI drafting workspace and source-cited federal permitting tools"
+    },
+    {
+      "name": "GridCoPilot for Thermal Events: An LLM-Based Platform for Power Grid Reliability Analysis",
+      "type": "CreativeWork",
+      "url": "https://www.osti.gov/biblio/3365574",
+      "topic": "LLM-based platform for power grid reliability analysis"
+    },
+    {
+      "name": "PermitAI hosts AI-focused workshop on environmental permitting",
+      "type": "WebPage",
+      "url": "https://www.pnnl.gov/publications/permitai-hosts-ai-focused-workshop-environmental-permitting",
+      "topic": "AI for environmental review and federal permitting"
+    }
+  ],
+  "pages": {
+    "biography": "https://sarthakchat.github.io/",
+    "publications": "https://sarthakchat.github.io/publications.html",
+    "activity": "https://sarthakchat.github.io/activity.html",
+    "blog": "https://sarthakchat.github.io/blog.html",
+    "contact": "https://sarthakchat.github.io/contact.html"
+  },
+  "agentSummary": "Sarthak Chaturvedi is a Senior R&D Staff member at PNNL Seattle Research Center building agentic AI systems for energy infrastructure planning, grid resilience, and federal permitting, including work connected to DraftNEPABench, NEPA-MCP, PermitAI, and GridCoPilot.",
+  "lastUpdated": "2026-07-11"
+}

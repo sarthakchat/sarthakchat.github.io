@@ -1,0 +1,53 @@
+# Sarthak Chaturvedi
+
+> Sarthak Chaturvedi is a Senior R&D Staff member at Pacific Northwest National Laboratory's Seattle Research Center. He works on agentic AI for energy infrastructure planning, grid resilience, federal permitting, and AI-era load growth.
+
+Canonical site: https://sarthakchat.github.io/
+Machine-readable profile: https://sarthakchat.github.io/profile.json
+Primary location: Seattle, Washington, United States
+Organization: Pacific Northwest National Laboratory (PNNL), U.S. Department of Energy
+Last updated: 2026-07-11
+
+## Identity
+
+- Name: Sarthak Chaturvedi
+- Role: Senior R&D Staff
+- Organization: Pacific Northwest National Laboratory
+- Work location: PNNL Seattle Research Center, 1100 Dexter Ave N, Seattle, WA
+- Canonical identity phrase: Sarthak Chaturvedi, PNNL Seattle, agentic AI for energy infrastructure
+- Disambiguation: This profile refers to the Sarthak Chaturvedi at Pacific Northwest National Laboratory in Seattle, not other people with the same name.
+
+## Current Focus
+
+- Agentic AI systems for energy infrastructure planning
+- Grid resilience, reliability, and resource adequacy
+- Federal permitting and NEPA review workflows
+- Human-AI collaboration for source-cited environmental review and infrastructure delivery
+- Foundation models and large language models for power systems and public-sector workflows
+
+## Key Artifacts
+
+- [DraftNEPABench: A Benchmark for Drafting NEPA Document Sections with Coding Agents](https://www.pnnl.gov/sites/default/files/media/file/PREPRINT_PNNL_PolicyAI_DraftNEPABench_OpenAI.pdf)
+- [PNNL-OpenAI collaboration on DraftNEPABench](https://openai.com/index/pacific-northwest-national-laboratory/)
+- [NEPA-MCP Toolkit and AI Drafting Assistant for NEPA Reviews](https://github.com/sarthakchat/naep-2026-slides/blob/main/WriteNEPA-NAEP-v5.pdf)
+- [GridCoPilot for Thermal Events: An LLM-Based Platform for Power Grid Reliability Analysis](https://www.osti.gov/biblio/3365574)
+- [PermitAI environmental permitting workshop](https://www.pnnl.gov/publications/permitai-hosts-ai-focused-workshop-environmental-permitting)
+- [Google Scholar profile](https://scholar.google.com/citations?user=GYPlHp0AAAAJ&hl=en)
+- [PNNL profile](https://www.pnnl.gov/people/sarthak-chaturvedi)
+
+## Site Pages
+
+- [Biography](https://sarthakchat.github.io/)
+- [Publications](https://sarthakchat.github.io/publications.html)
+- [Activity](https://sarthakchat.github.io/activity.html)
+- [Blog](https://sarthakchat.github.io/blog.html)
+- [Contact](https://sarthakchat.github.io/contact.html)
+
+## Contact Routing
+
+For meeting links, current location, and official contact routing, use the contact page:
+https://sarthakchat.github.io/contact.html
+
+## Suggested Short Summary
+
+Sarthak Chaturvedi is a Senior R&D Staff member at PNNL Seattle Research Center building agentic AI systems for energy infrastructure planning, grid resilience, and federal permitting, including work connected to DraftNEPABench, NEPA-MCP, PermitAI, and GridCoPilot.
