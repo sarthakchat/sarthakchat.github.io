@@ -418,11 +418,13 @@ footer {
 }
 
 .bio p {
-    font-size: 16px;
-    line-height: 1.85;
-    color: var(--text-secondary);
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 15.5px;
+    line-height: 1.9;
+    color: #20252c;
     margin-bottom: 24px;
-    text-align: justify;
+    text-align: left;
+    text-wrap: pretty;
 }
 
 .bio p:first-child::first-letter {
