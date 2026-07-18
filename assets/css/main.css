@@ -364,21 +364,24 @@ footer {
 }
 
 .hero-title {
-    font-size: 18px;
-    font-weight: 500;
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 15.5px;
+    font-weight: 400;
     color: var(--text);
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .hero-affiliation {
-    font-size: 15px;
+    font-family: 'Merriweather', Georgia, serif;
+    font-size: 13.5px;
+    font-weight: 400;
     color: var(--text-secondary);
-    line-height: 1.5;
+    line-height: 1.55;
 }
 
 .hero-affiliation a {
     color: var(--navy);
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -494,9 +497,9 @@ footer {
 }
 
 .featured-desc {
-    font-size: 14px;
+    font-size: 13.5px;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* Upcoming/Recent Activity Section (homepage) */
@@ -662,7 +665,7 @@ footer {
 }
 
 .publication-authors {
-    font-size: 14px;
+    font-size: 13.5px;
     color: var(--text-secondary);
 }
 
@@ -778,7 +781,7 @@ footer {
 }
 
 .timeline-venue {
-    font-size: 14px;
+    font-size: 13.5px;
     color: var(--text-secondary);
 }
 
@@ -859,9 +862,9 @@ footer {
 }
 
 .post-description {
-    font-size: 14px;
+    font-size: 13.5px;
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 /* ==========================================================================
@@ -968,7 +971,7 @@ footer {
 }
 
 .personal-statement {
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     color: var(--text-secondary);
     max-width: 520px;
