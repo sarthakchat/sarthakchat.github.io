@@ -6,7 +6,7 @@ Canonical site: https://sarthakchat.github.io/
 Machine-readable profile: https://sarthakchat.github.io/profile.json
 Primary location: Seattle, Washington, United States
 Organization: Pacific Northwest National Laboratory (PNNL), U.S. Department of Energy
-Last updated: 2026-07-11
+Last updated: 2026-08-26
 
 ## Identity
 
@@ -29,7 +29,8 @@ Last updated: 2026-07-11
 
 - [DraftNEPABench: A Benchmark for Drafting NEPA Document Sections with Coding Agents](https://www.pnnl.gov/sites/default/files/media/file/PREPRINT_PNNL_PolicyAI_DraftNEPABench_OpenAI.pdf)
 - [PNNL-OpenAI collaboration on DraftNEPABench](https://openai.com/index/pacific-northwest-national-laboratory/)
-- [NEPA-MCP Toolkit and AI Drafting Assistant for NEPA Reviews](https://github.com/sarthakchat/naep-2026-slides/blob/main/WriteNEPA-NAEP-v5.pdf)
+- [NEPA-MCP: Federal Environmental Data for AI Agents](https://pnnl.github.io/nepa-mcp/) — lead developer and primary maintainer; [GitHub](https://github.com/pnnl/nepa-mcp); [PyPI](https://pypi.org/project/nepa-mcp/)
+- [GridCoPilot: AI Agents for Grid Planning and Reliability Analysis — presentation slides](https://github.com/sarthakchat/grid-copilot-research-materials/blob/main/slides/GridCoPilot_IEEE_Working_Group_2026-08-20.pdf) — presented August 20, 2026, to the [IEEE Working Group on Cloud & AI for Grid Modernization and Digital Transformation](https://sites.google.com/view/cloud4powergrid)
 - [GridCoPilot for Thermal Events: An LLM-Based Platform for Power Grid Reliability Analysis](https://www.osti.gov/biblio/3365574)
 - [PermitAI environmental permitting workshop](https://www.pnnl.gov/publications/permitai-hosts-ai-focused-workshop-environmental-permitting)
 - [Google Scholar profile](https://scholar.google.com/citations?user=GYPlHp0AAAAJ&hl=en)
