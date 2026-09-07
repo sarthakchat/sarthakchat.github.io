@@ -11,6 +11,8 @@
     --navy: #0a2240;
     --gold: #b8860b;
     --gold-light: #d4a84b;
+    --gold-text: #8a6814;
+    --gold-strong: #735611;
     --text: #1a1a1a;
     --text-secondary: #4a5568;
     --border: #e2e8f0;
@@ -99,6 +101,7 @@ nav a.active {
 
 /* Main Container */
 main {
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     padding: 72px 32px;
@@ -193,13 +196,30 @@ footer {
     margin-bottom: 0;
 }
 
+/* Quiet actions on reading pages */
+.page-action {
+    display: inline-block;
+    padding: 4px 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.page-action:hover,
+.page-action:focus-visible {
+    color: var(--gold-text);
+}
+
 /* Section Title (used on homepage) */
 .section-title {
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 28px;
     font-weight: 600;
     color: var(--navy);
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     display: flex;
     align-items: center;
     gap: 16px;
@@ -213,13 +233,11 @@ footer {
 }
 
 /* Buttons */
-.btn-primary,
-.book-meeting-btn,
-.subscribe-btn {
+.btn-primary {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--gold);
+    background: var(--gold-text);
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
@@ -227,14 +245,12 @@ footer {
     text-decoration: none;
     white-space: nowrap;
     border-radius: 4px;
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease;
 }
 
 .btn-primary:hover,
-.book-meeting-btn:hover,
-.subscribe-btn:hover {
-    background: var(--gold-light);
-    transform: translateY(-1px);
+.btn-primary:focus-visible {
+    background: var(--gold-strong);
 }
 
 .btn-primary--large {
@@ -253,13 +269,13 @@ footer {
     text-decoration: none;
     border-radius: 4px;
     border: 1px solid var(--navy);
-    transition: all 0.2s ease;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
     background: var(--navy);
     color: #ffffff;
-    transform: translateY(-1px);
 }
 
 /* Label (uppercase gold text) */
@@ -268,7 +284,7 @@ footer {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
     margin-bottom: 8px;
 }
 
@@ -278,30 +294,46 @@ footer {
     margin-bottom: 24px;
 }
 
-/* Card (hover effect with border-left) */
+/* Card */
 .card {
     padding: 24px;
     background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
     border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-}
-
-.card:hover {
-    border-left-color: var(--gold);
-    transform: translateX(4px);
 }
 
 /* View All Link */
 .view-all {
     font-size: 14px;
     font-weight: 500;
-    color: var(--gold);
+    color: var(--gold-text);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .view-all:hover {
     color: var(--navy);
+}
+
+/* Link feedback leaves the surrounding text and cards in place. */
+.page-action:hover,
+.page-action:focus-visible,
+.hero-link:hover,
+.hero-link:focus-visible,
+.view-all:hover,
+.view-all:focus-visible,
+.featured-title a:hover,
+.featured-title a:focus-visible,
+.publication-title a:hover,
+.publication-title a:focus-visible,
+.upcoming-title a:hover,
+.upcoming-title a:focus-visible,
+.timeline-title a:hover,
+.timeline-title a:focus-visible,
+.post-title a:hover,
+.post-title a:focus-visible {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 /* ==========================================================================
@@ -317,7 +349,7 @@ footer {
 .hero-inner {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 72px 32px;
+    padding: 64px 32px 56px;
     display: grid;
     grid-template-columns: 220px 1fr;
     gap: 56px;
@@ -387,12 +419,12 @@ footer {
 }
 
 .hero-affiliation a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .hero-tagline {
     font-size: 13px;
-    color: var(--gold);
+    color: var(--gold-text);
     margin-top: 12px;
     letter-spacing: 0.02em;
 }
@@ -400,7 +432,7 @@ footer {
 .hero-link {
     display: inline-block;
     margin-top: 16px;
-    margin-left: 16px;
+    margin-left: 19px;
     font-size: 14px;
     font-weight: 500;
     color: var(--navy);
@@ -411,10 +443,14 @@ footer {
 }
 
 .hero-link:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 /* Bio Section */
+.hero + main {
+    padding-top: 48px;
+}
+
 .bio {
     columns: 1;
     max-width: 800px;
@@ -436,7 +472,7 @@ footer {
     font-weight: 600;
     float: left;
     line-height: 1;
-    margin-right: 12px;
+    margin-right: 8px;
     margin-top: 4px;
     color: var(--navy);
 }
@@ -445,10 +481,25 @@ footer {
     margin-bottom: 0;
 }
 
+.bio a {
+    color: var(--navy);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(138, 104, 20, 0.4);
+    text-underline-offset: 3px;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.bio a:hover,
+.bio a:focus-visible {
+    color: var(--gold-text);
+    text-decoration-color: var(--gold-text);
+}
+
 /* Featured Section */
 .featured {
-    margin-top: 72px;
-    padding-top: 48px;
+    margin-top: 56px;
+    padding-top: 36px;
     border-top: 1px solid var(--border);
 }
 
@@ -462,11 +513,6 @@ footer {
     padding: 24px;
     background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
     border-left: 3px solid var(--gold);
-    transition: transform 0.2s ease;
-}
-
-.featured-item:hover {
-    transform: translateX(4px);
 }
 
 .featured-label {
@@ -474,13 +520,13 @@ footer {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
     margin-bottom: 8px;
 }
 
 .featured-title {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--navy);
     margin-bottom: 8px;
@@ -490,10 +536,11 @@ footer {
 .featured-title a {
     color: inherit;
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 
 .featured-title a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .featured-desc {
@@ -504,8 +551,8 @@ footer {
 
 /* Upcoming/Recent Activity Section (homepage) */
 .upcoming {
-    margin-top: 72px;
-    padding-top: 48px;
+    margin-top: 56px;
+    padding-top: 36px;
     border-top: 1px solid var(--border);
 }
 
@@ -513,11 +560,18 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
     margin-bottom: 24px;
 }
 
 .upcoming-header .section-title {
+    flex: 1;
+    min-width: 0;
     margin-bottom: 0;
+}
+
+.upcoming-header .view-all {
+    flex-shrink: 0;
 }
 
 .upcoming-list {
@@ -527,43 +581,35 @@ footer {
 }
 
 .upcoming-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: 80px minmax(0, 1fr);
+    align-items: baseline;
+    gap: 2px 20px;
     padding: 16px 20px;
     background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
     border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-}
-
-.upcoming-item:hover {
-    border-left-color: var(--gold);
-    transform: translateX(4px);
 }
 
 .upcoming-date {
-    font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--gold);
-    min-width: 80px;
-    text-transform: uppercase;
-}
-
-.upcoming-content {
-    flex: 1;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    align-self: start;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--gold-text);
 }
 
 .upcoming-type {
+    grid-column: 2;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 2px;
+    color: var(--gold-text);
 }
 
 .upcoming-title {
+    grid-column: 2;
     font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 18px;
     font-weight: 600;
@@ -577,7 +623,7 @@ footer {
 }
 
 .upcoming-title a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .upcoming-link {
@@ -585,7 +631,7 @@ footer {
     margin-top: 8px;
     font-size: 13px;
     font-weight: 500;
-    color: var(--gold);
+    color: var(--gold-text);
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -608,11 +654,11 @@ footer {
 }
 
 .year-label {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--navy);
     margin-bottom: 24px;
 }
 
@@ -622,12 +668,6 @@ footer {
     border-bottom: 1px solid var(--border);
     padding-left: 16px;
     border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-}
-
-.publication:hover {
-    border-left-color: var(--gold);
-    transform: translateX(4px);
 }
 
 .publication:last-child {
@@ -652,15 +692,14 @@ footer {
 }
 
 .publication-title a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .publication-venue {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--gold);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--gold-text);
     margin-bottom: 8px;
 }
 
@@ -683,11 +722,11 @@ footer {
 }
 
 .section-label {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--navy);
     margin-bottom: 24px;
 }
 
@@ -744,12 +783,6 @@ footer {
     background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
     padding: 20px 24px;
     border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-}
-
-.timeline-item:hover .timeline-content {
-    border-left-color: var(--gold);
-    transform: translateX(4px);
 }
 
 .timeline-type {
@@ -757,7 +790,7 @@ footer {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
     margin-bottom: 6px;
 }
 
@@ -777,7 +810,7 @@ footer {
 }
 
 .timeline-title a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .timeline-venue {
@@ -790,7 +823,7 @@ footer {
     margin-top: 12px;
     font-size: 13px;
     font-weight: 500;
-    color: var(--gold);
+    color: var(--gold-text);
     text-decoration: none;
     transition: color 0.2s ease;
 }
@@ -814,12 +847,6 @@ footer {
     padding: 24px;
     background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
     border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-}
-
-.post:hover {
-    border-left-color: var(--gold);
-    transform: translateX(4px);
 }
 
 .post-meta {
@@ -834,7 +861,7 @@ footer {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .post-read-time {
@@ -844,7 +871,7 @@ footer {
 
 .post-title {
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     color: var(--navy);
     margin-bottom: 8px;
@@ -858,7 +885,7 @@ footer {
 }
 
 .post-title a:hover {
-    color: var(--gold);
+    color: var(--gold-text);
 }
 
 .post-description {
@@ -919,14 +946,6 @@ footer {
     padding: 22px 24px;
     border-top: 1px solid var(--border);
     border-left: 3px solid transparent;
-    transition: all 0.2s ease;
-    background: linear-gradient(to bottom right, transparent, transparent);
-}
-
-.contact-section:hover {
-    border-left-color: var(--gold);
-    background: linear-gradient(to bottom right, #f8f9fa, #ffffff);
-    transform: translateX(4px);
 }
 
 .contact-section h3 {
@@ -934,7 +953,7 @@ footer {
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-text);
     margin-bottom: 14px;
 }
 
@@ -951,6 +970,20 @@ footer {
     color: var(--text);
     line-height: 1.55;
     margin-bottom: 4px;
+}
+
+.contact-email {
+    display: grid;
+    gap: 4px;
+    margin-top: 12px;
+}
+
+.contact-email-label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gold-text);
 }
 
 .contact-buttons {
@@ -1064,7 +1097,7 @@ footer {
     /* Page Header */
     .page-header {
         flex-direction: column;
-        gap: 24px;
+        gap: 16px;
         align-items: flex-start;
     }
 
@@ -1077,8 +1110,8 @@ footer {
     .hero-inner {
         grid-template-columns: 1fr;
         text-align: center;
-        padding: 48px 24px;
-        gap: 40px;
+        padding: 36px 24px;
+        gap: 28px;
     }
 
     .hero-photo {
@@ -1093,19 +1126,20 @@ footer {
     }
 
     .hero-photo img {
-        width: 180px;
-        height: 225px;
+        width: 168px;
+        height: 210px;
     }
 
     .hero-info {
         padding-left: 0;
         border-left: none;
-        padding-top: 24px;
+        padding-top: 20px;
         border-top: 3px solid var(--gold);
     }
 
     .hero-info h1 {
         font-size: 32px;
+        line-height: 1.35;
     }
 
     .hero-link {
@@ -1113,6 +1147,10 @@ footer {
     }
 
     /* Bio */
+    .hero + main {
+        padding-top: 36px;
+    }
+
     .bio p {
         text-align: left;
     }
@@ -1126,6 +1164,31 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    /* Activity metadata sits above full-width titles on phones. */
+    .upcoming-header {
+        gap: 16px;
+    }
+
+    .upcoming-header .section-title {
+        gap: 12px;
+    }
+
+    .upcoming-item {
+        grid-template-columns: max-content minmax(0, 1fr);
+        gap: 6px 12px;
+    }
+
+    .upcoming-date,
+    .upcoming-type {
+        grid-row: 1;
+    }
+
+    .upcoming-title {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        line-height: 1.45;
+    }
+
     /* Timeline */
     .timeline {
         padding-left: 24px;
@@ -1133,6 +1196,10 @@ footer {
 
     .timeline-marker {
         left: -24px;
+    }
+
+    .timeline-content {
+        padding: 20px 16px;
     }
 
     /* Contact */
@@ -1153,5 +1220,19 @@ footer {
     .contact-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .contact-buttons a {
+        width: 224px;
+        max-width: 100%;
+        min-height: 54px;
+        justify-content: center;
+    }
+}
+
+/* Keep narrow navigation balanced instead of isolating the last link. */
+@media (max-width: 480px) {
+    nav {
+        max-width: 300px;
     }
 }
