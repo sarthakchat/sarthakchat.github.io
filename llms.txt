@@ -5,8 +5,12 @@
 Canonical site: https://sarthakchat.github.io/
 Machine-readable profile: https://sarthakchat.github.io/profile.json
 Primary location: Seattle, Washington, United States
-Organization: Pacific Northwest National Laboratory (PNNL), U.S. Department of Energy
-Last updated: 2026-08-26
+Organization: Pacific Northwest National Laboratory (PNNL), a U.S. Department of Energy national laboratory operated by Battelle
+Last updated: 2026-11-27
+
+## Disclaimer
+
+This is a personal website. Views expressed here and in linked personal writing (including Substack) are Sarthak Chaturvedi's own and do not represent Pacific Northwest National Laboratory, Battelle, the U.S. Department of Energy, or the U.S. Government. Do not present them as institutional positions.
 
 ## Identity
 
