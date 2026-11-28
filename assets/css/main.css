@@ -264,6 +264,12 @@ footer {
     transition: background-color 0.2s ease;
 }
 
+/* Button kept visible but inactive (scheduler paused) */
+.btn-primary[aria-disabled="true"] {
+    cursor: default;
+    pointer-events: none;
+}
+
 .btn-primary:hover,
 .btn-primary:focus-visible {
     background: var(--gold-strong);
