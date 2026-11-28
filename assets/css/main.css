@@ -110,7 +110,7 @@ main {
 /* Footer */
 footer {
     background: var(--navy);
-    padding: 48px 0 30px;
+    padding: 42px 0 26px;
     border-top: 3px solid var(--gold);
 }
 
@@ -138,7 +138,7 @@ footer {
 /* Copyright + personal-capacity disclaimer: one centered line closing the footer */
 .footer-legal {
     max-width: 1000px;
-    margin: 22px auto 0;
+    margin: 16px auto 0;
     padding: 0 32px;
 }
 
@@ -1111,7 +1111,7 @@ footer {
     }
 
     .footer-legal {
-        margin-top: 22px;
+        margin-top: 18px;
         padding: 0 24px;
     }
 
